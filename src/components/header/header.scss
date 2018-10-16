@@ -7,5 +7,10 @@
   #logo {
     margin: 0 auto;
     width: 300px;
+    @media (min-width: 700px) {
+      width: 150px;
+      position: fixed;
+      left: 45vw;
+    }
   }
 }
