@@ -2,4 +2,30 @@ $bg-img: url('../../images/meal-prep.jpg');
 
 #hero-block {
   background-image: $bg-img;
+
+  .cta-block {
+    background-color: #ffffffd8;
+    padding: 200px 50px;
+    text-align: center;
+
+    h1 {
+      font-size: 70px;
+    }
+
+    p {
+      font-size: 60px;
+    }
+
+    a {
+      width: 100%;
+      .cta-btn {
+        background-color: #FA5457;
+        width: 100%;
+        color: white;
+        font-size: 70px;
+        text-transform: uppercase;
+        padding: 20px;
+      }
+    }
+  }
 }
