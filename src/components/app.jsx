@@ -9,6 +9,7 @@ import {Provider} from 'react-redux';
 // import reducers from '../reducers/';
 
 import Home from './home/home.jsx';
+import Header from './header/header.jsx';
 
 // import middlewares from '../middleware/';
 // import {logger} from '../middleware/';
@@ -21,7 +22,10 @@ import Home from './home/home.jsx';
 class App extends React.Component {
   render() {
     return (
+      <React.Fragment>
+        <Header />
         <Home />
+      </React.Fragment>
     )
   }
 }
