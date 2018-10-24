@@ -1,14 +1,14 @@
 .header-nav {
-  position: fixed;
+  position: absolute;
   padding-top: 20px;
+  left: calc( 50% - 90px); 
+
   
-  #logo {
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    margin: 0 auto;
+  #logo {   
     width: 200px;
+    height: auto;
+    margin: 0 auto;
+    float: none;
     
     @media only screen and (min-width: 700px) {
       width: 150px;
