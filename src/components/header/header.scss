@@ -1,0 +1,17 @@
+.header-nav {
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  left: 35vw;
+
+  #logo {
+    margin: 0 auto;
+    width: 300px;
+    
+    @media only screen and (min-width: 700px) {
+      width: 150px;
+      position: fixed;
+      left: 45vw;
+    }
+  }
+}

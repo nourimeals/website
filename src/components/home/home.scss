@@ -1,0 +1,50 @@
+$bg-img: url('../../images/meal-prep.jpg');
+
+#hero-block {
+  background-image: $bg-img;
+  background-size: cover;
+
+  .cta-block {
+    background-color: #ffffffd8;
+    padding: 200px 50px;
+    text-align: center;
+    
+    @media only screen and (min-width: 700px) {
+      padding: 20vw 10vw;
+    }
+
+    h1 {
+      font-size: 70px;
+
+      @media only screen and (min-width: 700px) {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      font-size: 60px;
+
+      @media only screen and (min-width: 700px) {
+        font-size: 20px;
+      }
+    }
+
+    a {
+      width: 100%;
+      .cta-btn {
+        background-color: #FA5457;
+        width: 100%;
+        color: white;
+        font-size: 70px;
+        text-transform: uppercase;
+        padding: 20px;
+
+        @media only screen and (min-width: 700px) {
+          font-size: 20px;
+          padding: 10px;
+          width: 300px;
+        }
+      }
+    }
+  }
+}
