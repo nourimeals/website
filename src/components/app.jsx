@@ -10,6 +10,7 @@ import React from 'react';
 
 import Home from './home/home.jsx';
 import Header from './header/header.jsx';
+import Footer from './footer/footer.jsx';
 
 // import middlewares from '../middleware/';
 // import {logger} from '../middleware/';
@@ -25,6 +26,7 @@ class App extends React.Component {
       <React.Fragment>
         <Header />
         <Home />
+        <Footer />
       </React.Fragment>
     )
   }
