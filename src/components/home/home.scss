@@ -1,4 +1,9 @@
+/******************************
+    HERO BLOCK
+*******************************/
 $bg-img: url('../../images/meal-prep.jpg');
+
+
 
 #hero-block {
   background-image: $bg-img;
@@ -47,4 +52,29 @@ $bg-img: url('../../images/meal-prep.jpg');
       }
     }
   }
+}
+
+/******************************
+    QUOTE BLOCK
+*******************************/
+#home-quotes {
+  background-image: url('../../images/family-feet.jpg');
+  background-size: cover;
+  font-size: 20px;
+
+  .quote-content {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @media only screen and (min-width: 700px) {
+      padding: 3% 20%;
+    }
+
+    blockquote {
+      margin: 20px;
+    }
+  }
+  
 }
