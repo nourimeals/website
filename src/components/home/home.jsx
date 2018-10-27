@@ -30,6 +30,10 @@ your community?</h1>
           <h1>This is where Nouri Meals comes in.</h1>
           <p>Nouri Meals is the hub for connecting Schools or Non-Profit Organizations, Donors, Businesses to help feed children fresh, nutritious food.</p>
         </section>
+        <section id="home-learn-more">
+          <h1>Learn more...</h1>
+          <a href="mailto:ambergkim@gmail.com"><button>CONNECT</button></a>
+        </section>
         <section id="home-how-it-works">
           <h1>How does Nouri Meals work?</h1>
           <ul>
