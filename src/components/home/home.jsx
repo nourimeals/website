@@ -25,6 +25,11 @@ your community?</h1>
             <blockquote cite="https://www.northwestharvest.org/wa-hunger-facts">1 in 5 kids in Washington state lives in a household that struggles to put food on the table. The majority of working-age Washingtonians who live in poverty are actively working or looking for work.<cite> - northwestharvest.org</cite></blockquote>
           </div>
         </section>
+        <section id="home-come-in">
+          <p>Time is one thing that holds people back from improving their situation and time is also what often holds other back from being more involved and invested in the wellbeing of their communities.</p>
+          <h1>This is where Nouri Meals comes in.</h1>
+          <p>Nouri Meals is the hub for connecting Schools or Non-Profit Organizations, Donors, Businesses to help feed children fresh, nutritious food.</p>
+        </section>
       </React.Fragment>
   }
 }
