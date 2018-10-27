@@ -3,7 +3,8 @@
 *******************************/
 $bg-img: url('../../images/meal-prep.jpg');
 
-$text-empahasis-color: #01B4BC;
+$teal-empahasis-color: #01B4BC;
+$red-cta-color: #FA5457;
 
 
 
@@ -92,7 +93,42 @@ $text-empahasis-color: #01B4BC;
   padding: 5%;
 
   h1 {
-    color: $text-empahasis-color;
+    color: $teal-empahasis-color;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 3% 20%;
+  }
+}
+
+/******************************
+    LEARN MORE
+*******************************/
+#home-learn-more {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10% 5%;
+  border-top: 2px solid $teal-empahasis-color;
+  border-bottom: 2px solid $teal-empahasis-color;
+
+  h1 {
+    color: $teal-empahasis-color;
+    margin: 0;
+  }
+
+  a {
+    width: 100%;
+
+    button {
+      width: 100%;
+      background-color: $red-cta-color;
+      color: white;
+      padding: 10px;
+      max-width: 300px;
+    }
   }
 
   @media only screen and (min-width: 700px) {
@@ -112,7 +148,7 @@ $text-empahasis-color: #01B4BC;
   padding: 5%;
 
   h1 {
-    color: $text-empahasis-color;
+    color: $teal-empahasis-color;
   }
 
   ul  {
@@ -124,3 +160,4 @@ $text-empahasis-color: #01B4BC;
     padding: 3% 20%;
   }
 }
+
