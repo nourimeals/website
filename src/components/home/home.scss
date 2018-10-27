@@ -3,6 +3,8 @@
 *******************************/
 $bg-img: url('../../images/meal-prep.jpg');
 
+$text-empahasis-color: #01B4BC;
+
 
 
 #hero-block {
@@ -76,5 +78,24 @@ $bg-img: url('../../images/meal-prep.jpg');
       margin: 20px;
     }
   }
-  
+}
+
+/******************************
+    WHERE NOURI COMES IN
+*******************************/
+#home-come-in {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+
+  h1 {
+    color: $text-empahasis-color;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 3% 20%;
+  }
 }
