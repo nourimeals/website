@@ -4,8 +4,30 @@ import React from 'react';
 import Header from '../header/header.jsx';
 
 import './home.scss';
+var ml_account;
 
 class HomePage extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.runMailPopup = this.runMailPopup.bind(this);
+  }
+
+  componentDidMount() {
+    // Code for running Mailerlite
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+      var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+      f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+      var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+      _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+      
+      ml_account = ml('accounts', '1308892', 't0g9u5n8v8', 'load');
+  }
+
+  runMailPopup() {
+    ml_account('webforms', '1094822', 'b7x6u1', 'show');
+  }
+
   render() {
     return <React.Fragment>
         <section id="hero-block">
@@ -14,9 +36,7 @@ class HomePage extends React.Component {
 your community?</h1>
             <p>Fighting childhood hunger starts with schools…</p>
             <p>… and ends with a vibrant and supportive community.</p>
-            <a href="mailto:hello@nourimeals.com">
-              <button className="cta-btn">connect</button>
-            </a>
+            <button onClick={this.runMailPopup} className="cta-btn">Connect</button>
           </div>
         </section>
         <section id="home-quotes">
@@ -32,7 +52,7 @@ your community?</h1>
         </section>
         <section id="home-learn-more">
           <h1>Learn more...</h1>
-          <a href="mailto:ambergkim@gmail.com"><button>CONNECT</button></a>
+          <button onClick={this.runMailPopup} className="cta-btn">Connect</button>
         </section>
         <section id="home-how-it-works">
           <h1>How does Nouri Meals work?</h1>

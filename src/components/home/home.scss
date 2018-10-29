@@ -37,21 +37,18 @@ $red-cta-color: #FA5457;
       }
     }
 
-    a {
+    .cta-btn {
+      background-color: #FA5457;
       width: 100%;
-      .cta-btn {
-        background-color: #FA5457;
-        width: 100%;
-        color: white;
-        font-size: 70px;
-        text-transform: uppercase;
-        padding: 20px;
+      color: white;
+      font-size: 70px;
+      text-transform: uppercase;
+      padding: 20px;
 
-        @media only screen and (min-width: 700px) {
-          font-size: 20px;
-          padding: 10px;
-          width: 300px;
-        }
+      @media only screen and (min-width: 700px) {
+        font-size: 20px;
+        padding: 10px;
+        width: 300px;
       }
     }
   }
@@ -119,16 +116,13 @@ $red-cta-color: #FA5457;
     margin: 0;
   }
 
-  a {
+  button {
     width: 100%;
-
-    button {
-      width: 100%;
-      background-color: $red-cta-color;
-      color: white;
-      padding: 10px;
-      max-width: 300px;
-    }
+    background-color: $red-cta-color;
+    color: white;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   @media only screen and (min-width: 700px) {
