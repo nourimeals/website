@@ -9,6 +9,11 @@ $red-cta-color: #FA5457;
 
 
 #hero-block {
+  border: dotted;
+  border-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-image: $bg-img;
   background-size: cover;
   display: block;
@@ -16,10 +21,11 @@ $red-cta-color: #FA5457;
   height: 100%;
 
   .cta-block {
+  
     background-color: #ffffffd8;
     padding: 200px 50px;
     text-align: center;
-    
+
     @media only screen and (min-width: 700px) {
       padding: 20vw 10vw;
     }
@@ -56,6 +62,7 @@ $red-cta-color: #FA5457;
     }
   }
 }
+
 
 /******************************
     QUOTE BLOCK
@@ -148,7 +155,7 @@ $red-cta-color: #FA5457;
     color: $teal-empahasis-color;
   }
 
-  ul  {
+  ul {
     text-align: left;
     margin: 0 auto;
   }
@@ -157,4 +164,3 @@ $red-cta-color: #FA5457;
     padding: 10% 20%;
   }
 }
-
