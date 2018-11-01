@@ -1,23 +1,30 @@
 .header-nav {
+  border: dotted;
+  border-color: blue;
   position: fixed;
-  padding-top: 20px;
-  left: calc( 50% - 90px); 
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100%;
 
-  
-  #logo {   
+
+  #logo {
+    align-self: center;
     width: 200px;
     margin: 0 auto;
-    
-    @media only screen and (min-width: 700px) {
-      width: 150px;
-      position: fixed;
-      left: 45vw;
-    }
 
-    @media only screen and (min-width: 1000px) {
-      width: 150px;
-      position: fixed;
-      left: 45vw;
-    }
+    // @media only screen and (min-width: 700px) {
+    //   width: 150px;
+    //   position: fixed;
+    //   left: 45vw;
+    // }
+
+    // @media only screen and (min-width: 1000px) {
+    //   width: 150px;
+    //   position: fixed;
+    //   left: 45vw;
+    // }
   }
 }
