@@ -1,4 +1,12 @@
+/******************************
+    HERO BLOCK
+*******************************/
 $bg-img: url('../../images/meal-prep.jpg');
+
+$teal-empahasis-color: #01B4BC;
+$red-cta-color: #FA5457;
+
+
 
 #hero-block {
   background-image: $bg-img;
@@ -32,22 +40,121 @@ $bg-img: url('../../images/meal-prep.jpg');
       }
     }
 
-    a {
+    .cta-btn {
+      background-color: #FA5457;
       width: 100%;
-      .cta-btn {
-        background-color: #FA5457;
-        width: 100%;
-        color: white;
-        font-size: 70px;
-        text-transform: uppercase;
-        padding: 20px;
+      color: white;
+      font-size: 70px;
+      text-transform: uppercase;
+      padding: 20px;
 
-        @media only screen and (min-width: 700px) {
-          font-size: 20px;
-          padding: 10px;
-          width: 300px;
-        }
+      @media only screen and (min-width: 700px) {
+        font-size: 20px;
+        padding: 10px;
+        width: 300px;
       }
     }
   }
 }
+
+/******************************
+    QUOTE BLOCK
+*******************************/
+#home-quotes {
+  background-image: url('../../images/family-feet.jpg');
+  background-size: cover;
+  font-size: 20px;
+
+  .quote-content {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @media only screen and (min-width: 700px) {
+      padding: 3% 20%;
+    }
+
+    blockquote {
+      margin: 20px;
+    }
+  }
+}
+
+/******************************
+    WHERE NOURI COMES IN
+*******************************/
+#home-come-in {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+
+  h1 {
+    color: $teal-empahasis-color;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 10% 20%;
+  }
+}
+
+/******************************
+    LEARN MORE
+*******************************/
+#home-learn-more {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10% 5%;
+  border-top: 2px solid $teal-empahasis-color;
+  border-bottom: 2px solid $teal-empahasis-color;
+
+  h1 {
+    color: $teal-empahasis-color;
+    margin: 0;
+  }
+
+  button {
+    width: 100%;
+    background-color: $red-cta-color;
+    color: white;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 10% 20%;
+  }
+}
+
+/******************************
+    HOW IT WORKS
+*******************************/
+#home-how-it-works {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+
+  h1 {
+    color: $teal-empahasis-color;
+  }
+
+  ul  {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 10% 20%;
+  }
+}
+
