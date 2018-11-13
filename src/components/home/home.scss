@@ -6,9 +6,6 @@ $bg-img: url('../../images/meal-prep.jpg');
 $teal-empahasis-color: #01B4BC;
 $red-cta-color: #FA5457;
 
-* {
-  border: dotted;
-  border-color: blue;
   
   #hero-block {
     display: flex;
@@ -20,9 +17,8 @@ $red-cta-color: #FA5457;
     height: 100%;
     
     .cta-block {
-      border: dotted;
-      border-color: blue;
-      flex-wrap: ;
+      // border: dotted;
+      // border-color: blue;
       // background-color: #ffffffd8;
       padding: 200px 50px;
       text-align: center;
@@ -64,7 +60,7 @@ $red-cta-color: #FA5457;
       }
     }
   }
-}
+
 
 
 /******************************
