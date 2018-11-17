@@ -2,7 +2,7 @@ import React from 'react';
 import './about.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import kim from '../../images/kim.png'
+import kim from '../../images/kim.jpg'
 //about section 
 //button has no function at the moment 
 class About extends React.Component {
