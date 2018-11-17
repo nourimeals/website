@@ -2,6 +2,7 @@ import React from 'react';
 // import {connect} from 'react-redux';
 
 import Header from '../header/header.jsx';
+//ix 11/16/18 what was this Header var for? 
 
 import './home.scss';
 var ml_account;

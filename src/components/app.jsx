@@ -11,7 +11,14 @@ import React from 'react';
 import Home from './home/home.jsx';
 import Header from './header/header.jsx';
 import Footer from './footer/footer.jsx';
+import About from './about/about.jsx';
 
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faheart)
 // import middlewares from '../middleware/';
 // import {logger} from '../middleware/';
 
@@ -26,7 +33,8 @@ class App extends React.Component {
       <React.Fragment>
         <Header />
         <Home />
-        <Footer />
+        <About />
+        <Footer />   
       </React.Fragment>
     )
   }
