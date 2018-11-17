@@ -15,10 +15,10 @@ import About from './about/about.jsx';
 
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faheart)
+// library.add(faheart)
 // import middlewares from '../middleware/';
 // import {logger} from '../middleware/';
 
