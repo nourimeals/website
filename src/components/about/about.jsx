@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import kim from "../../images/kim.jpg";
 //about section
@@ -16,6 +16,9 @@ class About extends React.Component {
             want to be generous, be a part of our communities and help each
             other. We just need the light to show us how.
           </p>
+          <div>
+    <FontAwesomeIcon icon="heart" />
+  </div>
         </div>
 
         <div className="about-col-2">
@@ -27,6 +30,9 @@ class About extends React.Component {
             holds people back from being more involved and invested in the
             wellbeing of their communities.
           </p>
+          <div>
+    <FontAwesomeIcon icon="heart" />
+  </div>
         </div>
         <div className="about-col-3">
           <p>
@@ -37,6 +43,9 @@ class About extends React.Component {
             but do not know how to fit saving the world into our schedules.
           </p>
         </div>
+        <div>
+    <FontAwesomeIcon icon="heart" />
+  </div>
       </section>
 
       <section className="btn reach-out">
