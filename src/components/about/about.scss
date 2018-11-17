@@ -1,0 +1,62 @@
+$teal-empahasis-color: #01B4BC;
+
+.about-container{
+  margin: 8rem;
+ 
+}
+
+.about-col{
+  text-align: justify;
+  font-size: 1.5rem;
+  padding: 4.2rem;
+}
+.icon-heart{
+  text-align: center;
+  color: red;
+}
+
+.container-reach-out{
+  padding: 4rem;
+  text-align: center;
+  h2{
+    font-size:1.75rem;
+  }
+  .reach-out-btn{
+    background-color: red;
+    color: white;
+   
+  }
+}
+
+.team-block{
+
+  text-align: justify;
+  h1{
+    color: $teal-empahasis-color;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+  position: relative;
+  img{
+    
+    width: 14rem;
+    height: 223px;
+  }
+  p{
+    width:16rem;
+  }
+}
+.team-col-container{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%) ;
+}
+.team-col-1{
+
+ display: inline-block;
+ padding: 2rem;
+}
