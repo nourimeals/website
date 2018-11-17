@@ -32,7 +32,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header />
-        <Home />
+        <Home/>
         <About />
         <Footer />   
       </React.Fragment>
