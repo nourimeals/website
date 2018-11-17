@@ -1,4 +1,5 @@
 $teal-empahasis-color: #01B4BC;
+$red-cta-color: #FA5457;
 
 .about-container{
   margin: 8rem;
@@ -22,8 +23,13 @@ $teal-empahasis-color: #01B4BC;
     font-size:1.75rem;
   }
   .reach-out-btn{
-    background-color: red;
+    background-color: $red-cta-color;
     color: white;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
    
   }
 }
@@ -35,13 +41,10 @@ $teal-empahasis-color: #01B4BC;
     color: $teal-empahasis-color;
     text-align: center;
     font-size: 3rem;
-    padding-bottom: 1rem;
   }
   position: relative;
   img{
-    
     width: 14rem;
-    height: 223px;
   }
   p{
     width:16rem;
@@ -50,7 +53,7 @@ $teal-empahasis-color: #01B4BC;
 .team-col-container{
 
   position: absolute;
-  top: 50%;
+  
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%) ;
