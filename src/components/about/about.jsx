@@ -10,6 +10,7 @@ class About extends React.Component {
   render() {
     return
     <section class="about-block">
+    <section class="about-col" >
     <div class="about-col-1">
       <p>The idea of Nouri Meals was born out of a realization that we all want to be generous, be a part of our communities and help each other. We just need the light to show us how.</p>
       <div class="hearticon">
@@ -41,6 +42,7 @@ class About extends React.Component {
     <img src={kim} alt="team-photo" class="team-photo"/>
     <p></p>
     </div>
+    </section>
     </section>
   }
 }
