@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   display: flex;
-  // background-color: #ffffffd8;
+  background-color: #ffffffd8;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -10,8 +10,9 @@
 
 #logo {
   align-self: center;
-  width: 75px;
+  width: 100px;
   margin: 0 auto;
+  padding: 25px;
 }
 
   
