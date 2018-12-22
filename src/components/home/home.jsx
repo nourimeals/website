@@ -35,8 +35,8 @@ class HomePage extends React.Component {
           <div className="cta-block">
             <h1>Will you be a part of
             your community?</h1>
-            <p>Fighting childhood hunger starts with schools…<br/>
-            … and ends with a vibrant and supportive community.</p>
+            <p>Fighting childhood hunger starts with schools…</p>
+            <p>… and ends with a vibrant and supportive community.</p>
             <button onClick={this.runMailPopup} className="cta-btn">Connect</button>
           </div>
         </section>

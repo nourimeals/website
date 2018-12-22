@@ -1,18 +1,20 @@
 .header-nav {
   position: fixed;
+  top: 0;
   display: flex;
-  background-color: #ffffffd8;
+  // background-color: #ffffffd8;
   flex-direction: column;
   justify-content: center;
-  padding-top: 10px;
   width: 100%;
+}
 
+#logo {
+  align-self: center;
+  width: 75px;
+  margin: 0 auto;
+}
 
-  #logo {
-    align-self: center;
-    width: 200px;
-    margin: 0 auto;
-
+  
     // @media only screen and (min-width: 700px) {
     //   width: 150px;
     //   position: fixed;
@@ -24,5 +26,4 @@
     //   position: fixed;
     //   left: 45vw;
     // }
-  }
-}
+ 
