@@ -4,7 +4,8 @@
 $bg-img: url('../../images/meal-prep.jpg');
 $teal-empahasis-color: #01B4BC;
 $red-cta-color: #FA5457;
-
+$white-cta-color: #ffffffd8;
+$cta-btn-font: 'Muli', sans-serif;
 
 #hero-block {
   display: flex;
@@ -16,9 +17,8 @@ $red-cta-color: #FA5457;
   height: 100%;
 
   .cta-block {
-    // width: 400px;
     box-sizing: border-box;
-    background-color: #ffffffd8;
+    background-color: $white-cta-color;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -31,48 +31,20 @@ $red-cta-color: #FA5457;
 
       p {
         font-size: 1.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
       .cta-btn {
-        background-color: #FA5457;
+        background-color: $red-cta-color;
         width: 100%;
         color: white;
         font-weight: 100;
         font-size: 1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $cta-btn-font;
         text-transform: uppercase;
         padding: 15px;
         border: 1px solid #000;
         margin-bottom: 70px;
       }
-
-
-   
-
-    // h1 {
-    //   font-size: 50px;
-
-    //   @media only screen and (min-width: 700px) {
-    //     font-size: 30px;
-    //   }
-    // }
-
-    // p {
-    //   font-size: 40px;
-
-    //   @media only screen and (min-width: 700px) {
-    //     font-size: 15px;
-    //   }
-    // }
-
-    
-
-    // @media only screen and (min-width: 700px) {
-      //   font-size: 20px;
-      //   padding: 10px;
-      //   width: 300px;
-      // }
   }
 }
 
@@ -92,13 +64,11 @@ $red-cta-color: #FA5457;
     }
 
     .cta-block {
-      // width: 400px;
       box-sizing: border-box;
-      background-color: #ffffffd8;
+      background-color: $white-cta-color;
       height: 50%;
       max-width: 60%;
       padding: 10px;
-      // background-color: green;
       text-align: center;
       margin: 0 auto;
       margin: 15% auto;
@@ -110,25 +80,21 @@ $red-cta-color: #FA5457;
 
       p {
         font-size: 1.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
       .cta-btn {
-        background-color: #FA5457;
+        background-color: $red-cta-color;
         width: 50%;
         color: white;
         font-weight: 100;
         font-size: 1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $cta-btn-font;
         text-transform: uppercase;
         padding: 15px;
         border: 1px solid #000;
       }
     }
   }
-
-
-  
 }
 
 
@@ -139,6 +105,18 @@ $red-cta-color: #FA5457;
   background-image: url('../../images/family-feet.jpg');
   background-size: cover;
   font-size: 20px;
+
+  .cta-btn {
+    background-color: $red-cta-color;
+    width: 50%;
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: $cta-btn-font;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #000;
+  }
 
   .quote-content {
     padding: 3%;
@@ -153,6 +131,10 @@ $red-cta-color: #FA5457;
     blockquote {
       margin: 20px;
     }
+  }
+
+  .white-overlay {
+    background-color: $white-cta-color;
   }
 }
 
@@ -194,13 +176,17 @@ $red-cta-color: #FA5457;
     margin: 0;
   }
 
-  button {
-    width: 100%;
+  .cta-btn {
     background-color: $red-cta-color;
+    width: 100%;
     color: white;
-    padding: 10px;
-    max-width: 300px;
-    margin: 0 auto;
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: $cta-btn-font;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #000;
+    margin-bottom: 70px;
   }
 
   @media only screen and (min-width: 700px) {
@@ -231,6 +217,5 @@ $red-cta-color: #FA5457;
   @media only screen and (min-width: 700px) {
     padding: 10% 20%;
   }
-
   
 }

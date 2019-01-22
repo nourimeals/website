@@ -1,34 +1,24 @@
+
+$white-overlay: #ffffffd8;
+
 .header-nav {
   position: fixed;
   top: 0;
   display: flex;
-  // background-color: #ffffffd8;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-}
 
-#logo {
-  align-self: center;
-  width: 100px;
-  margin: 0 auto;
-  padding: 5px;
+    #logo {
+      align-self: center;
+      width: 100px;
+      margin: 0 auto;
+      padding: 5px;
+    }
 }
 
 @media only screen and (min-width: 700px) {
   .header-nav {
-    background-color: #ffffffd8;
+    background-color: $white-overlay;
   }
 }
-    // @media only screen and (min-width: 700px) {
-    //   width: 150px;
-    //   position: fixed;
-    //   left: 45vw;
-    // }
-
-    // @media only screen and (min-width: 1000px) {
-    //   width: 150px;
-    //   position: fixed;
-    //   left: 45vw;
-    // }
- 
