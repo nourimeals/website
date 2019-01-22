@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Ovo');
 
-.white-overlay {
-  background-color: #ffffffd8;
+$p-font: 'Muli', sans-serif;
+$h-font: 'Ovo', serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $h-font;
+}
+
+p {
+  font-family: $p-font;
 }
 
