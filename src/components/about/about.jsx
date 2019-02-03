@@ -25,7 +25,7 @@ class AboutPage extends React.Component {
         <a href="mailto:hello@nourimeals.com"><button>Reach Out</button></a>
       </section>
       <section id="team-block">
-        <h1>Meet the Team</h1>
+        <h1>Meet the Board</h1>
           <div id="team-list">
             <div className="team-member">
               <img src={kim} alt={teamData.amber.name} className="team-photo" />
