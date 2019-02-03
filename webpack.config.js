@@ -6,6 +6,7 @@ const config = {
   entry: `${__dirname}/src/main.jsx`,
   output: {
     path: `${__dirname}/build`,
+    publicPath: '/',
     filename: 'bundle.js'
   },
   plugins: [
