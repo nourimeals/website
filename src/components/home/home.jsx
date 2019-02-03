@@ -35,7 +35,7 @@ class HomePage extends React.Component {
           <div className="cta-block">
             <h1>Will you be a part of
             your community?</h1>
-            <p>Fighting childhood hunger starts with schools…</p>
+            <p>Fighting childhood hunger starts with you...</p>
             <p>… and ends with a vibrant and supportive community.</p>
             <button onClick={this.runMailPopup} className="cta-btn">Connect</button>
           </div>
@@ -51,7 +51,7 @@ class HomePage extends React.Component {
         <section id="home-come-in">
           <p>Time is one thing that holds people back from improving their situation and time is also what often holds other back from being more involved and invested in the wellbeing of their communities.</p>
           <h1>This is where Nouri Meals comes in.</h1>
-          <p>Nouri Meals is the hub for connecting Schools or Non-Profit Organizations, Donors, Businesses to help feed children fresh, nutritious food.</p>
+          <p>Nouri Meals is the hub for connecting Organizations, Donors, Businesses to help feed children fresh, nutritious food.</p>
         </section>
         <section id="home-learn-more">
           <h1>Learn more...</h1>
@@ -61,10 +61,11 @@ class HomePage extends React.Component {
         <section id="home-how-it-works">
           <h1>How does Nouri Meals work?</h1>
           <ul>
-            <li>Schools identify who needs meals</li>
-            <li>Parents sign their children up for Nouri Meals</li>
-            <li>Vendors find a listing that fit their schedule</li>
-            <li>Vendors deliver ready-to-eat food to families</li>
+            <li>Schools identify who needs meals.</li>
+            <li>Parents sign their children up for Nouri Meals.</li>
+            <li>Vendors find a listing they can fulfill</li>
+            <li>Vendors deliver ready-to-eat food to families.</li>
+            <li>Families receive fresh meals right at their doorstep.</li>
           </ul>
         </section>
 
