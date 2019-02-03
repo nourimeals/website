@@ -5,7 +5,7 @@ const config = {
   devtool: 'source-map',
   entry: `${__dirname}/src/main.jsx`,
   output: {
-    path: `${__dirname}/docs`,
+    path: `${__dirname}/build`,
     filename: 'bundle.js'
   },
   plugins: [
