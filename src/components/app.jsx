@@ -1,33 +1,18 @@
 import React from 'react';
-// import {Provider} from 'react-redux';
-// import {BrowserRouter, Route} from 'react-router-dom';
-// import {createStore,
-  // combineReducers,
-  // applyMiddleware
-// } from 'redux';
-
-// import reducers from '../reducers/';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Home from './home/home.jsx';
-import Header from './header/header.jsx';
-import Footer from './footer/footer.jsx';
-
-// import middlewares from '../middleware/';
-// import {logger} from '../middleware/';
-
-// const store = createStore(
-//   reducers,
-//   // applyMiddleware(middlewares.logger)
-// );
+import About from './about/about.jsx';
 
 class App extends React.Component {
   render() {
     return (
-      <React.Fragment>
-        <Header />
-        <Home />
-        <Footer />
-      </React.Fragment>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+        </Switch>
+      </BrowserRouter>
     )
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-// import {connect} from 'react-redux';
 
 import Header from '../header/header.jsx';
+import Footer from '../footer/footer.jsx';
 
 import './home.scss';
 var ml_account;
@@ -30,7 +30,7 @@ class HomePage extends React.Component {
 
   render() {
     return <React.Fragment>
-
+      <Header />
         <section id="hero-block">
           <div className="cta-block">
             <h1>Will you be a part of
@@ -68,6 +68,8 @@ class HomePage extends React.Component {
             <li>Families receive fresh meals right at their doorstep.</li>
           </ul>
         </section>
+
+        <Footer />
 
       </React.Fragment>
   }
