@@ -10,7 +10,6 @@
   "scripts": {
     "heroku-prebuild": "rm -rf /dist",
     "hot": "webpack-dev-server --inline --hot --history-api-fallback --open",
-    "postinstall": "npm run build",
     "build": "webpack --mode production",
     "start": "node index.js"
   },
@@ -52,5 +51,6 @@
   "bugs": {
     "url": "https://github.com/nourimeals/website/issues"
   },
-  "homepage": "https://nourimeals.com"
+  "homepage": "https://nourimeals.com",
+  "heroku-run-build-script": true
 }
