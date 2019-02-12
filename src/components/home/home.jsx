@@ -42,7 +42,6 @@ class HomePage extends React.Component {
         </section>
 
         <section id="home-priorities">
-            <div>
               <h1>Nouri Meals Priorities:</h1>
               <ul>
                 <li>Provide fresh food for our children’s health and future.</li>
@@ -53,7 +52,6 @@ class HomePage extends React.Component {
                 <li>Connect people to information and resources to improve
                 their lives.</li>
               </ul>
-            </div>
         </section>
 
         <section id="home-quotes">
