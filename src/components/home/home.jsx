@@ -41,6 +41,21 @@ class HomePage extends React.Component {
           </div>
         </section>
 
+        <section id="home-priorities">
+            <div>
+              <h1>Nouri Meals Priorities:</h1>
+              <ul>
+                <li>Provide fresh food for our children’s health and future.</li>
+                <li>Empower local businesses to thrive and provide a living for their families.</li>
+                <li>Involve communities to invest in the people around them.</li>
+                <li>Respect the value of time and accessibility.</li>
+                <li>Enable self-sufficiency and living wages.</li>
+                <li>Connect people to information and resources to improve
+                their lives.</li>
+              </ul>
+            </div>
+        </section>
+
         <section id="home-quotes">
           <div className="white-overlay quote-content">
             <blockquote cite="https://www.nokidhungry.org/who-we-are/hunger-facts">More than 13 million children in the US live in ‘food insecure’ homes… In the US, 1 in 6 children face hunger.<cite> - nokidhungry.org</cite></blockquote>

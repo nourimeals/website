@@ -97,6 +97,31 @@ $cta-btn-font: 'Muli', sans-serif;
   }
 }
 
+/******************************
+    PRIORITIES
+*******************************/
+#home-priorities {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+
+  h1 {
+    color: $teal-empahasis-color;
+  }
+
+  ul {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 10% 20%;
+  }
+}
+
 
 /******************************
     QUOTE BLOCK
