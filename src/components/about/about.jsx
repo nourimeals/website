@@ -22,7 +22,7 @@ class AboutPage extends React.Component {
       </section>
       <section id="reach-out">
         <h2>Our job is to gift time back to you and enable you to be part of your neighborhood.</h2>
-        <a href="mailto:hello@nourimeals.com"><button>Reach Out</button></a>
+        <a href="mailto:hello@nourimeals.com"><button>Get Updates</button></a>
       </section>
       <section id="team-block">
         <h1>Meet the Board</h1>

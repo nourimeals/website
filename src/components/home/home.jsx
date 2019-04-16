@@ -33,12 +33,38 @@ class HomePage extends React.Component {
       <Header />
         <section id="hero-block">
           <div className="cta-block">
-            <h1>Will you be a part of
-            your community?</h1>
-            <p>Fighting childhood hunger starts with you...</p>
-            <p>… and ends with a vibrant and supportive community.</p>
-            <button onClick={this.runMailPopup} className="cta-btn">Connect</button>
+            <h1>Helping hungry families as easy as easy as ordering food delivery from an app.</h1>
+            <p>Join our team in bringing tech to end childhood hunger in our communities.</p>
+            <button onClick={this.runMailPopup} className="cta-btn">Get Updates</button>
           </div>
+        </section>
+
+        <section id="home-how-it-works">
+          <h1>How does Nouri Meals work?</h1>
+          <ul>
+            <li>Non profits identify families who need meals.</li>
+            <li>Parents sign their family up for Nouri Meals.</li>
+            <li>Vendors find a listing they can fulfill</li>
+            <li>Vendors deliver ready-to-eat food to families.</li>
+            <li>Families receive fresh meals right at their doorstep.</li>
+          </ul>
+        </section>
+
+        <section id="home-quotes">
+          <div className="white-overlay quote-content">
+            <blockquote cite="https://www.nokidhungry.org/who-we-are/hunger-facts">More than 13 million children in the US live in ‘food insecure’ homes… In the US, 1 in 6 children face hunger.<cite> - nokidhungry.org</cite></blockquote>
+            <blockquote cite="https://www.northwestharvest.org/wa-hunger-facts">1 in 5 kids in Washington state lives in a household that struggles to put food on the table. The majority of working-age Washingtonians who live in poverty are actively working or looking for work.<cite> - northwestharvest.org</cite></blockquote>
+          </div>
+        </section>
+
+        <section id="home-come-in">
+          <p>Time is one thing that holds the working poor back from improving their situation and time is also what often holds other people like you and me from being more involved and invested in the wellbeing of their communities.</p>
+          <h1>This is where Nouri Meals comes in.</h1>
+          <p>Nouri Meals is the hub for connecting Organizations, Donors, Businesses to help feed children fresh, nutritious food.</p>
+        </section>
+        <section id="home-learn-more">
+          <h1>Learn more...</h1>
+          <button onClick={this.runMailPopup} className="cta-btn">Get Updates</button>
         </section>
 
         <section id="home-priorities">
@@ -52,34 +78,6 @@ class HomePage extends React.Component {
                 <li>Connect people to information and resources to improve
                 their lives.</li>
               </ul>
-        </section>
-
-        <section id="home-quotes">
-          <div className="white-overlay quote-content">
-            <blockquote cite="https://www.nokidhungry.org/who-we-are/hunger-facts">More than 13 million children in the US live in ‘food insecure’ homes… In the US, 1 in 6 children face hunger.<cite> - nokidhungry.org</cite></blockquote>
-            <blockquote cite="https://www.northwestharvest.org/wa-hunger-facts">1 in 5 kids in Washington state lives in a household that struggles to put food on the table. The majority of working-age Washingtonians who live in poverty are actively working or looking for work.<cite> - northwestharvest.org</cite></blockquote>
-          </div>
-        </section>
-
-        <section id="home-come-in">
-          <p>Time is one thing that holds people back from improving their situation and time is also what often holds other back from being more involved and invested in the wellbeing of their communities.</p>
-          <h1>This is where Nouri Meals comes in.</h1>
-          <p>Nouri Meals is the hub for connecting Organizations, Donors, Businesses to help feed children fresh, nutritious food.</p>
-        </section>
-        <section id="home-learn-more">
-          <h1>Learn more...</h1>
-          <button onClick={this.runMailPopup} className="cta-btn">Connect</button>
-        </section>
-
-        <section id="home-how-it-works">
-          <h1>How does Nouri Meals work?</h1>
-          <ul>
-            <li>Schools identify who needs meals.</li>
-            <li>Parents sign their children up for Nouri Meals.</li>
-            <li>Vendors find a listing they can fulfill</li>
-            <li>Vendors deliver ready-to-eat food to families.</li>
-            <li>Families receive fresh meals right at their doorstep.</li>
-          </ul>
         </section>
 
         <Footer />
