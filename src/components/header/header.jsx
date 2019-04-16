@@ -24,7 +24,7 @@ class Header extends React.Component {
   render() {
     return <header>
       <img src={logo} alt="Nouri Logo" id="logo"/>
-      <p onClick={this.toggleMenu}>MENU</p>
+      <p onClick={this.toggleMenu} id="menu-button">MENU</p>
       {
         this.state.menuOn ?
         (
