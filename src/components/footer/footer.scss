@@ -9,4 +9,36 @@ footer {
     width: 100px;
     margin: 0 auto;
   }
+
 }
+
+.social-media{
+  margin-top: 2%;
+
+  p {
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .social-icons{
+    display: flex;
+    margin: 0 auto;
+    width: 8%;
+    justify-content: space-between;
+  
+    a {
+      text-decoration: none;
+      color: #00b9bf;
+      margin-top: 3%;
+    }  
+  }
+
+  @media only screen and (max-width: 700px) {
+    .social-icons {
+    width: 35%;
+    }
+
+  }
+}
+
