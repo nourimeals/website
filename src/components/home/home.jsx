@@ -33,7 +33,7 @@ class HomePage extends React.Component {
       <Header />
         <section id="hero-block">
           <div className="cta-block">
-            <h1>Helping hungry families is easy as easy as ordering food delivery from an app.</h1>
+            <h1>Helping hungry families is as easy as ordering food delivery from an app.</h1>
             <p>Join our team in bringing tech to end childhood hunger in our communities.</p>
             <button onClick={this.runMailPopup} className="cta-btn">Get Updates</button>
           </div>
