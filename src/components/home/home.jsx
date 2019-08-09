@@ -33,7 +33,7 @@ class HomePage extends React.Component {
       <Header />
         <section id="hero-block">
           <div className="cta-block">
-            <h1>Helping hungry families as easy as easy as ordering food delivery from an app.</h1>
+            <h1>Helping hungry families is easy as easy as ordering food delivery from an app.</h1>
             <p>Join our team in bringing tech to end childhood hunger in our communities.</p>
             <button onClick={this.runMailPopup} className="cta-btn">Get Updates</button>
           </div>
@@ -78,6 +78,14 @@ class HomePage extends React.Component {
                 <li>Connect people to information and resources to improve
                 their lives.</li>
               </ul>
+        </section>
+
+        <section id="home-volunteer">
+            <h2>Want to join the team?</h2>
+            <p>We welcome volunteers!</p>
+            <p>We work remotely and asynchronously using online collaboration tools like GitHub.<br />
+            Our stack is JavaScript/NodeJS, React, React-Native, and MongoDB.</p>
+            <button href="https://forms.gle/4ERxvyu5ThMC7dGU7" className="cta-btn">Volunteer</button>
         </section>
 
         <Footer />
