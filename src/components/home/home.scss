@@ -260,6 +260,10 @@ $cta-btn-font: 'Muli', sans-serif;
   border-width: 1px;
   border-color: $teal-empahasis-color;
 
+  a {
+    text-decoration: none;
+  }
+
   h1 {
     color: $teal-empahasis-color;
   }

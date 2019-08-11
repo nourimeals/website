@@ -85,7 +85,7 @@ class HomePage extends React.Component {
             <p>We welcome volunteers!</p>
             <p>We work remotely and asynchronously using online collaboration tools like GitHub.<br />
             Our stack is JavaScript/NodeJS, React, React-Native, and MongoDB.</p>
-            <button href="https://forms.gle/4ERxvyu5ThMC7dGU7" className="cta-btn">Volunteer</button>
+            <a href="https://forms.gle/4ERxvyu5ThMC7dGU7"><button className="cta-btn">Volunteer</button></a>
         </section>
 
         <Footer />
