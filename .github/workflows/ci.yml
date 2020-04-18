@@ -8,14 +8,9 @@ on:
 jobs:
 
   build:
-    name: build
-  
-  strategy:
-    matrix:
-      runs-on: [ubuntu-latest]
-      fail-fast: false
+    name: Run build
     
-  runs-on: ${{ matrix.runs-on }}
+  runs-on: ubuntu-latest
 
   steps:
   - name: Checkout Code
