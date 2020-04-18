@@ -10,16 +10,16 @@ jobs:
   build:
     name: Run build
     
-  strategy:
-    matrix:
-      runs-on: [ubuntu-latest]
-    fail-fast: false
+    strategy:
+      matrix:
+        runs-on: [ubuntu-latest]
+      fail-fast: false
     
-  runs-on: ${{ matrix.runs-on }}
+    runs-on: ${{ matrix.runs-on }}
 
-  steps:
-  - name: Checkout Code
-    uses: actions/checkout@v1
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v1
 
-  - name: Install Dependencies
-    run: npm i
+    - name: Install Dependencies
+      run: npm i
