@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from '../header/header.jsx';
-import Footer from '../footer/footer.jsx';
+import { Header } from '../common/header/header.jsx';
+
 
 import './about.scss';
 
@@ -26,28 +26,28 @@ class AboutPage extends React.Component {
       </section>
       <section id="team-block">
         <h1>Meet the Board</h1>
-          <div id="team-list">
-            <div className="team-member">
-              <img src={kim} alt={teamData.amber.name} className="team-photo" />
-              <h3>{teamData.amber.name}</h3>
-              <h4>{teamData.amber.position}</h4>
-              <p>{teamData.amber.bio}</p>
-            </div>
-            <div className="team-member">
-              <img src={green} alt={teamData.cody.name}className="team-photo" />
-              <h3>{teamData.cody.name}</h3>
-              <h4>{teamData.cody.position}</h4>
-              <p>{teamData.cody.bio}</p>
-            </div>
-            <div className="team-member">
-              <img src={johnson} alt={teamData.ryan.name}className="team-photo" />
-              <h3>{teamData.ryan.name}</h3>
-              <h4>{teamData.ryan.position}</h4>
-              <p>{teamData.ryan.bio}</p>
-            </div>
+        <div id="team-list">
+          <div className="team-member">
+            <img src={kim} alt={teamData.amber.name} className="team-photo" />
+            <h3>{teamData.amber.name}</h3>
+            <h4>{teamData.amber.position}</h4>
+            <p>{teamData.amber.bio}</p>
           </div>
+          <div className="team-member">
+            <img src={green} alt={teamData.cody.name} className="team-photo" />
+            <h3>{teamData.cody.name}</h3>
+            <h4>{teamData.cody.position}</h4>
+            <p>{teamData.cody.bio}</p>
+          </div>
+          <div className="team-member">
+            <img src={johnson} alt={teamData.ryan.name} className="team-photo" />
+            <h3>{teamData.ryan.name}</h3>
+            <h4>{teamData.ryan.position}</h4>
+            <p>{teamData.ryan.bio}</p>
+          </div>
+        </div>
       </section>
-      <Footer />
+
     </React.Fragment>
   }
 }
