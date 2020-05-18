@@ -1,0 +1,110 @@
+.welcome-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+   
+    .welcome-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        width: 30%;
+        margin-right: 20px;
+    }
+   .welcome-title{
+        font-size: 50px;
+        font-weight: 100;
+        color: #848484;
+        padding-bottom: 20px;
+   }
+   .welcome-sub-title {
+       padding-bottom: 15px;
+       font-weight: 300;
+       color: #848484;
+   }
+    img {
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+    }
+
+    .btn-container {
+        padding: 15px 30px 15px 30px;
+        background-color: #7A6DAC;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+  }
+
+
+.about-section{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .about-header {
+        max-width: 80%;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 200;
+        color: #848484;
+        margin-bottom: 40px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .about-content-container {
+        max-width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .about-content-col {
+            display: flex;
+            flex-direction: column;
+            max-width: 60%;
+            padding-left: 35px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.volunteer-section {
+
+    align-items: center;
+    justify-content: center;
+
+    .volunteer-title {
+        font-size: 32px;
+        font-weight: 200;
+        color: #848484;
+        margin-bottom: 25px;
+    }
+    .volunteer-content-col {
+        max-width: 40%;
+        margin-right: 35px;
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    img {
+        max-height: 170px;
+        max-width: 170px;
+        height: auto;
+        width: auto;
+    }
+}
