@@ -15,7 +15,8 @@ run npm run hot
 Will launch in browser
 Troubleshooting
 
-Ensure these packages are installed:\n
+Ensure these packages are installed:
+
 npm install node-sass
 npm install -g webpack
 npm i webpack --save-dev
