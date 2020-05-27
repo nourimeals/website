@@ -11,7 +11,8 @@ export const Welcome = () => {
             <div className="welcome-text-container">
                 <div className="welcome-title">{HEADER_TXT}</div>
                 <div className="welcome-sub-title">{SUB_HEADER_TXT}</div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9N1_wWETbeMs7UAxzUTCMl0FhCnVneozlA-EMAMQXSBFy3A/viewform" target="_blank"><button className="btn-container">get involved</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9N1_wWETbeMs7UAxzUTCMl0FhCnVneozlA-EMAMQXSBFy3A/viewform" target="_blank"><button className="volunteer-btn">get involved</button></a>
+                <a href="https://donorbox.org/nouri" target="_blank"><button className="donate-btn">donate</button></a>
             </div>
             <img src={landing_image} alt="family-image" />
         </section>

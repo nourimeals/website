@@ -31,13 +31,16 @@
         margin-left: 20px;
     }
 
-    .btn-container {
+    .volunteer-btn {
         padding: 15px 30px 15px 30px;
         background-color: #7A6DAC;
         color: #fff;
         border-radius: 10px;
         font-weight: 300;
         font-size: 18px;
+    }
+    .donate-btn {
+        display: none;
     }
   }
 
