@@ -9,25 +9,25 @@ header {
   display: flex;
   font-family: 'Lato', sans-serif;
   flex-direction: row;
-  width: 98%;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 
-  .header-left {
+  img {
+    height: 75px;
+    width: 150px;
+  }
+
+  .header-right {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  
-  .header-left img {
-    height: 75px;
-    width: 150px;
+    margin-right: 20px;
   }
   
   .link-row {
     display: flex;
     flex-direction: row;
-    margin-left: -20px;
   }
     
   .link-row li {
@@ -60,7 +60,7 @@ header {
 }
 
 .btn-container {
-  padding: 15px 30px 15px 30px;
+  padding: 12px 30px 12px 30px;
   background-color: #412F8A;
   color: #fff;
   border-radius: 10px;
