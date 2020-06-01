@@ -1,17 +1,28 @@
 
-$white-overlay: #ffffff;
-$gray-accent: #efefef;
+$header-btn-color: #412F8A;
 
+/* smallest devices -- screen sizes up to 576px */
 header {
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  display: flex;
-  font-family: 'Lato', sans-serif;
-  flex-direction: row;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
+  top: 0;
+
+   /* extra large devices -- large desktops screen sizes 1200px and above */
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (min-width: 768px) {
+      margin-top: 15px;
+      width: 90%;
+    }
+  }
 
   img {
     height: 75px;
@@ -20,24 +31,36 @@ header {
 
   .header-right {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-right: 20px;
+
+    /* medium devices -- tablets and screen sizes 768px and above */
+    @media only screen and (min-width: 768px) {
+      flex-direction: row;
+    }
   }
   
-  .link-row {
-    display: flex;
-    flex-direction: row;
-  }
+  ul {
+    margin-top: 15px;
+    flex-direction: column;
+
+    @media only screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+    }
     
-  .link-row li {
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0px 15px 0px 15px;
-    font-size: 18px;
-    font-weight: 300;
+    li {
+      text-decoration: none;
+      list-style-type: none;
+      margin-top: 4px;
+      font-size: 16px;
+      font-weight: 500;
+
+      @media only screen and (min-width: 768px) {
+        margin: 0px 15px 0px 15px;
+      }
+    }
   }
-    
+  
   a {
     text-decoration: none;
     list-style-type: none;
@@ -52,18 +75,28 @@ header {
     border-bottom: 2px solid #55BFC9;
     transition: border-bottom 0.6s;
   }
-  
-  .icon:hover,
-  .icon:active {
-    color: #55BFC9;
-  }  
+
+  .btn-container {
+    display: none;
+
+    /* large devices -- desktops screen sizes 992px and above */
+    @media only screen and (min-width: 992px) {
+      padding: 12px 25px 12px 25px;
+      background-color: $header-btn-color;
+      color: #fff;
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline;
+    }
+  }
+
 }
 
-.btn-container {
-  padding: 12px 30px 12px 30px;
-  background-color: #412F8A;
-  color: #fff;
-  border-radius: 10px;
-  font-weight: 500;
-  cursor: pointer;
-}
+ /* small devices -- screen sizes 576px and above */
+//  @media only screen and (min-width: 576px) {
+//  no changes -- everything looks good
+// }
+
+
