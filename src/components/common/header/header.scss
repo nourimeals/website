@@ -37,6 +37,20 @@ header {
     @media only screen and (min-width: 768px) {
       flex-direction: row;
     }
+
+    .hamburger-icon {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  .nav-hide {
+    display: none;
   }
   
   ul {
