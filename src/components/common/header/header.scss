@@ -4,7 +4,8 @@ $header-btn-color: #412F8A;
 /* smallest devices -- screen sizes up to 576px */
 header {
   width: 100%;
-  top: 0;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  padding-bottom: 8px;
 
    /* extra large devices -- large desktops screen sizes 1200px and above */
   @media only screen and (min-width: 768px) {
@@ -13,11 +14,6 @@ header {
   }
 
   .header-parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
     @media only screen and (min-width: 768px) {
       margin-top: 15px;
       width: 90%;
@@ -27,67 +23,119 @@ header {
   img {
     height: 75px;
     width: 150px;
+
+    @media only screen and (min-width: 768px) {
+      float: left;
+    }
   }
 
-  .header-right {
-    display: flex;
-    margin-right: 20px;
+  /*  default for mobile device -- nav list is hidden  */
+  .hide {
+    display: none;
 
-    /* medium devices -- tablets and screen sizes 768px and above */
     @media only screen and (min-width: 768px) {
-      flex-direction: row;
-    }
-
-    .hamburger-icon {
       display: flex;
+      flex-direction: row;
+      margin-top: 25px;
+      justify-content: flex-end;
       align-items: center;
-      margin-left: 10px;
-
+    }
+    
+    li {
       @media only screen and (min-width: 768px) {
-        display: none;
+        text-decoration: none;
+        list-style-type: none;
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px 15px 0px 15px;
+        transition: all .5s ease-out;
+      }
+
+      a {
+        @media only screen and (min-width: 768px) {
+          text-decoration: none;
+          list-style-type: none;
+          border-bottom: none;
+          color: #848484;
+          transition: all .5s ease-out;
+        }
+      }
+        
+      a:hover,
+      a:active {
+        @media only screen and (min-width: 768px) {
+          border-bottom: 2px solid #55BFC9;
+          transition: border-bottom 0.2s;
+        }
       }
     }
   }
 
-  .nav-hide {
-    display: none;
-  }
-  
-  ul {
-    margin-top: 15px;
-    flex-direction: column;
+  /*  responsive view for mobile*/
+  .mobile {
 
     @media only screen and (min-width: 768px) {
       display: flex;
       flex-direction: row;
+      margin-top: 25px;
+      justify-content: flex-end;
+      align-items: center;
     }
     
     li {
       text-decoration: none;
       list-style-type: none;
-      margin-top: 4px;
-      font-size: 16px;
+      margin-bottom: 15px;
+      font-size: 24px;
       font-weight: 500;
+      transition: all .5s ease-out;
 
       @media only screen and (min-width: 768px) {
         margin: 0px 15px 0px 15px;
       }
+
+      @media only screen and (min-width: 992px) {
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        list-style-type: none;
+        border-bottom: none;
+        color: #848484;
+        transition: all .5s ease-out;
+
+        @media only screen and (min-width: 768px) {
+          padding-bottom: 2px;
+          border-bottom: 2px solid transparent;
+         
+        }
+      }
+        
+      a:hover,
+      a:active {
+        color: #55BFC9;
+        transition: 0.2s;
+
+        @media only screen and (min-width: 768px) {
+          border-bottom: 2px solid #55BFC9;
+          transition: border-bottom 0.6s;
+        }
+      }
     }
   }
-  
-  a {
-    text-decoration: none;
-    list-style-type: none;
-    border-bottom: none;
-    padding-bottom: 2px;
-    border-bottom: 2px solid transparent;
-    color: #000;
-  }
-    
-  li a:hover,
-  li a:active {
-    border-bottom: 2px solid #55BFC9;
-    transition: border-bottom 0.6s;
+
+  .hamburger-icon {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    color: #848484;
+    transition: all .3s ease-out;
+
+    @media only screen and (min-width: 768px) {
+      display: none;
+    }
   }
 
   .btn-container {
@@ -95,22 +143,17 @@ header {
 
     /* large devices -- desktops screen sizes 992px and above */
     @media only screen and (min-width: 992px) {
+      display: inline;
       padding: 12px 25px 12px 25px;
+      margin-left: 15px;
       background-color: $header-btn-color;
       color: #fff;
       border-radius: 10px;
       border: none;
       font-weight: 500;
       cursor: pointer;
-      display: inline;
     }
   }
-
 }
-
- /* small devices -- screen sizes 576px and above */
-//  @media only screen and (min-width: 576px) {
-//  no changes -- everything looks good
-// }
 
 
