@@ -4,7 +4,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './home/home.jsx';
-import About from './about/about.jsx';
 
 class App extends React.Component {
   render() {
