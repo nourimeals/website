@@ -8,7 +8,6 @@
   "description": "Let's solve childhood hunger. Will you be a part of your community?",
   "main": "webpack.config.js",
   "scripts": {
-    "heroku-prebuild": "rm -rf /dist",
     "hot": "webpack-dev-server --inline --hot --history-api-fallback --open",
     "build": "webpack --mode production",
     "start": "node index.js"
