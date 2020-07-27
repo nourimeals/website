@@ -1,3 +1,21 @@
+.links-container {
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: 15px;
+    margin-bottom: 5px;
+    color: #7A6DAC;
+     
+  }
+  a:hover {
+    color: #050505;
+    transform: scale(.98)
+  }
+
+
+}
+
 footer {
   display: flex;
   flex-direction: column;
