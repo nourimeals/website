@@ -29,11 +29,14 @@ export const Volunteer = () => {
                 </div>
 
                 <div className="image-col">
-                    <div className="overlay">
-                        <img src={kim} alt="board-img" />
-                        <div className='text-div'>
-                            <p>Amber Kim</p>
-                            <p>Chair</p>
+                    <div className="image-row">
+                        <div className="overlay">
+                            <img src={kim} alt="board-img" />
+                            <div className='text-div'>
+                                <p>Amber Kim</p>
+                                <p>Chair</p>
+                            </div>
+
                         </div>
                     </div>
                     <div className="overlay">
@@ -43,7 +46,7 @@ export const Volunteer = () => {
                             <p>Vice Chair</p>
                         </div>
                     </div>
-                    <div className="overlay johnson">
+                    <div className="overlay">
                         <img src={johnson} alt="board-img" />
                         <div className='text-div'>
                             <p>Ryan Johnson</p>
@@ -55,42 +58,6 @@ export const Volunteer = () => {
                         <div className='text-div'>
                             <p>Timothy Kim</p>
                             <p>Chief of Operations</p>
-                        </div>
-                        <div className="image-row">
-                            <div className="overlay">
-                                <img src={kim} alt="board-img" />
-                                <div className='text-div'>
-                                    <p>Amber Kim</p>
-                                    <p>Chair</p>
-                                </div>
-
-                            </div>
-                            <div className="overlay">
-                                <img src={greenCrop} alt="board-img" />
-                                <div className='text-div'>
-                                    <p>Cody Green</p>
-                                    <p>Vice Chair</p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div className="image-row">
-                            <div className="overlay">
-                                <img src={johnson} alt="board-img" />
-                                <div className='text-div'>
-                                    <p>Ryan Johnson</p>
-                                    <p>Member of the Board</p>
-                                </div>
-
-                            </div>
-                            <div className="overlay">
-                                <img src={timKimCrop} alt="board-img" />
-                                <div className='text-div'>
-                                    <p>Timothy Kim</p>
-                                    <p>Chief of Operations</p>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
                 </div>
