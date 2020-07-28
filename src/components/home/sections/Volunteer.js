@@ -32,6 +32,7 @@ export const Volunteer = () => {
                 </div>
 
                 <div className="image-col">
+<<<<<<< HEAD
                     <div className="overlay kim">
                         <img src={kim} alt="board-img" />
                         <div className='text-div'>
@@ -59,6 +60,45 @@ export const Volunteer = () => {
                             <p>Timothy Kim</p>
                             <p>Chief of Operations</p>
                         </div>
+=======
+                    <div className="image-row">
+                        <div className="overlay">
+                            <img src={kim} alt="board-img" />
+                            <div className='text-div'>
+                                <p>Amber Kim</p>
+                                <p>Chair</p>
+                            </div>
+
+                        </div>
+                        <div className="overlay">
+                            <img src={greenCrop} alt="board-img" />
+                            <div className='text-div'>
+                                <p>Cody Green</p>
+                                <p>Vice Chair</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="image-row">
+                        <div className="overlay">
+                            <img src={johnson} alt="board-img" />
+                            <div className='text-div'>
+                                <p>Ryan Johnson</p>
+                                <p>Member of the Board</p>
+                            </div>
+
+                        </div>
+                        <div className="overlay">
+                            <img src={timKimCrop} alt="board-img" />
+                            <div className='text-div'>
+                                <p>Timothy Kim</p>
+                                <p>Chief of Operations</p>
+                            </div>
+
+                        </div>
+                        {/* <img src={green} alt="board-img" />
+                        <img src={timKim} alt="board-img" /> */}
+>>>>>>> created overlay for text over volunteer images, spaced out images, cropped 2 images
                     </div>
                 </div>
 

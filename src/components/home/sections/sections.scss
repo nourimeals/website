@@ -227,11 +227,24 @@
         }
           
 
+<<<<<<< HEAD
             .overlay{
                 position: relative;
                 height: 140px;
 
            
+=======
+        .image-row {
+            display: flex;
+            flex-direction: row;
+    
+    
+            .overlay{
+                position: relative;
+                margin: 0px 15px 15px 15px;
+
+
+>>>>>>> created overlay for text over volunteer images, spaced out images, cropped 2 images
             img {
                 display: none;
         
@@ -239,6 +252,7 @@
                     display: block;
                     height: 140px;
                     width: 140px;
+<<<<<<< HEAD
                 }
             }
             .text-div{
@@ -259,6 +273,32 @@
                 }
             }
             }
+=======
+                }
+            }
+            .text-div{
+                display: none;
+
+                @media only screen and (min-width: 992px) {
+                display: block;
+                position: absolute;
+                color: white;
+                bottom: 0px;
+                background: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                height: 30px;
+
+                p {  
+                    margin: 0;
+                    margin-bottom: 2px;
+                    font-size: 13px;
+                }
+            }
+            }
+            
+    
+        }
+>>>>>>> created overlay for text over volunteer images, spaced out images, cropped 2 images
         }
     }
 }
