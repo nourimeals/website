@@ -152,7 +152,14 @@ header {
       border: none;
       font-weight: 500;
       cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      &:hover {
+        transform: scale(.98)
+      }
     }
+
+    
   }
 }
 

@@ -9,6 +9,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# VS Code
+.vs/
+
 # Runtime data
 pids
 *.pid
