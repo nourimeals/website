@@ -1,13 +1,10 @@
 import React from 'react'
 
 /*  IMAGES   */
-import green from '../../../images/green.jpg';
 import johnson from '../../../images/johnson.jpg';
 import kim from '../../../images/kim.jpg';
 import timKim from '../../../images/tim-kim.jpg';
-
-import timKimCrop from '../../../images/tim-kim-cropped.jpg';
-import greenCrop from '../../../images/green-cropped.jpg';
+import green from '../../../images/green.jpg';
 
 const CONTENT1 = `If you are another nonprofit or social worker in the Redmond who would like to refer families with school-aged, disabled, or unborn children, we would love to help.`;
 const CONTENT2 = `Currently, we are only able to deliver within Redmond. Hopefully, we'll be able to expand soon. If you are looking for ways to volunteer remotely from your home, we would love to chat with you. Some of the things we could use help in include marketing, organizing, and developing apps to help us automate some processes with our deliveries (stack: JavaScript, Node, React, AWS, DynamoDB).`;
@@ -32,16 +29,15 @@ export const Volunteer = () => {
                 </div>
 
                 <div className="image-col">
-<<<<<<< HEAD
-                    <div className="overlay kim">
+                    <div className="overlay">
                         <img src={kim} alt="board-img" />
                         <div className='text-div'>
                             <p>Amber Kim</p>
                             <p>Chair</p>
                         </div>
                     </div>
-                    <div className="overlay green">
-                        <img src={greenCrop} alt="board-img" />
+                    <div className="overlay">
+                        <img src={green} alt="board-img" />
                         <div className='text-div'>
                             <p>Cody Green</p>
                             <p>Vice Chair</p>
@@ -54,55 +50,50 @@ export const Volunteer = () => {
                             <p>Member of the Board</p>
                         </div>
                     </div>
-                    <div className="overlay tim">
-                        <img src={timKimCrop} alt="board-img" />
+                    <div className="overlay">
+                        <img src={timKim} alt="board-img" />
                         <div className='text-div'>
                             <p>Timothy Kim</p>
                             <p>Chief of Operations</p>
                         </div>
-=======
-                    <div className="image-row">
-                        <div className="overlay">
-                            <img src={kim} alt="board-img" />
-                            <div className='text-div'>
-                                <p>Amber Kim</p>
-                                <p>Chair</p>
-                            </div>
+                        <div className="image-row">
+                            <div className="overlay">
+                                <img src={kim} alt="board-img" />
+                                <div className='text-div'>
+                                    <p>Amber Kim</p>
+                                    <p>Chair</p>
+                                </div>
 
-                        </div>
-                        <div className="overlay">
-                            <img src={greenCrop} alt="board-img" />
-                            <div className='text-div'>
-                                <p>Cody Green</p>
-                                <p>Vice Chair</p>
                             </div>
+                            <div className="overlay">
+                                <img src={greenCrop} alt="board-img" />
+                                <div className='text-div'>
+                                    <p>Cody Green</p>
+                                    <p>Vice Chair</p>
+                                </div>
 
-                        </div>
-                    </div>
-                    <div className="image-row">
-                        <div className="overlay">
-                            <img src={johnson} alt="board-img" />
-                            <div className='text-div'>
-                                <p>Ryan Johnson</p>
-                                <p>Member of the Board</p>
                             </div>
-
                         </div>
-                        <div className="overlay">
-                            <img src={timKimCrop} alt="board-img" />
-                            <div className='text-div'>
-                                <p>Timothy Kim</p>
-                                <p>Chief of Operations</p>
+                        <div className="image-row">
+                            <div className="overlay">
+                                <img src={johnson} alt="board-img" />
+                                <div className='text-div'>
+                                    <p>Ryan Johnson</p>
+                                    <p>Member of the Board</p>
+                                </div>
+
                             </div>
+                            <div className="overlay">
+                                <img src={timKimCrop} alt="board-img" />
+                                <div className='text-div'>
+                                    <p>Timothy Kim</p>
+                                    <p>Chief of Operations</p>
+                                </div>
 
+                            </div>
                         </div>
-                        {/* <img src={green} alt="board-img" />
-                        <img src={timKim} alt="board-img" /> */}
->>>>>>> created overlay for text over volunteer images, spaced out images, cropped 2 images
                     </div>
                 </div>
-
-
             </div>
         </section>
     )
