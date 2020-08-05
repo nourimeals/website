@@ -1,11 +1,13 @@
 import React from 'react';
 import './footer.scss';
+import './missionStatement.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookSquare, faLinkedinIn, faTwitter, faMediumM } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faLinkedinIn, faTwitter, faMediumM, faCentercode } from "@fortawesome/free-brands-svg-icons";
 
 
-const CONTENT = `Nouri is a Section 501(c) (3) charitable organization, EIN 83-4209975. all donations are deemed tax-deductible absent any limitations on 
-deductibility applicable to a particular taxpayer. No goods or services were provided in exchange for your contribution`;
+const CONTENT = <div className="missionStatement">Nouri is a Section 501(c) (3) charitable organization, EIN 83-4209975. all donations are deemed tax-deductible absent any limitations on 
+deductibility applicable to a particular taxpayer. No goods or services were provided in exchange for your contribution<br/></div>; 
+const ADDRESS = <div className="missionStatement">7241 185th Ave. NE #3472 <br/> Redmond, WA</div>
 
 export const Footer = () => {
     return (
@@ -37,7 +39,11 @@ export const Footer = () => {
                 </a>
 
             </div>
-            <footer>{CONTENT}</footer>
+            <footer> 
+            {CONTENT} 
+            <br/> 
+            {ADDRESS}
+            </footer>
         </div>
 
     )
