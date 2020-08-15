@@ -1,4 +1,15 @@
+/* impliment 2 - 10 at later date /*
+// Medium devices (tablets, 768px and up)
+//@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { ... }
 /*     Extra small devices (portrait phones, less than 576px) */
+// Small devices (landscape phones, 576px and up)
+//@media (min-width: 576px) {  }
 
 
 /*    WELCOME SECTION     */
@@ -8,7 +19,17 @@
   flex-direction: column;
   align-items: center;
   height: 85vh;
-
+  @media only screen and (min-width: 650px) and (min-heigh: 360px){ 
+    display: none;
+    flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 5%;
+      height: 30vh;
+  
+   }  
+   
+   
   @media only screen and (min-width: 992px) {
       flex-direction: row;
       justify-content: center;
@@ -31,10 +52,19 @@
       }
   }
  .welcome-title{
-      font-size: 50px;
+      font-size: 20px;
       font-weight: 100;
       color: #848484;
-      padding-bottom: 20px;
+      padding-bottom: 10px; 
+      @media only screen and (min-width: 640px) and (min-height: 360px){ 
+    //display: none;
+    flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 5%;
+      height: 10vh;
+  
+   } 
  }
  .welcome-sub-title {
      padding-bottom: 15px;
