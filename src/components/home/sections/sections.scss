@@ -34,7 +34,8 @@
       font-size: 50px;
       font-weight: 100;
       color: #848484;
-      padding-bottom: 20px;
+      padding-bottom: 20px; 
+      @media only screen and (max-width: 640px){ display: none; }
  }
  .welcome-sub-title {
      padding-bottom: 15px;
