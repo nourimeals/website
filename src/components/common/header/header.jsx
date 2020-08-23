@@ -27,7 +27,7 @@ export const Header = () => {
         <ul className={navClass}>
           <li><a href="#about">About us</a></li>
           <li><a href="#volunteer">Volunteer</a></li>
-          <li><a href="https://docs.google.com/forms/d/18KYoG2Qu9xwRAca-6zuM2wp3i3aa3B3fa4ysegm9g34/viewform?edit_requested=true" target="_blank">Need Help?</a></li>
+          <li><a href="https://forms.gle/pK6fb7YfQMWqNnRC7" target="_blank">Need Help?</a></li>
           <a href="https://donorbox.org/nouri" target="_blank"><button className="btn-container">donate</button></a>
         </ul>
 
