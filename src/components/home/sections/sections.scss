@@ -35,7 +35,11 @@
       font-weight: 100;
       color: #848484;
       padding-bottom: 20px; 
-      @media only screen and (max-width: 640px){ display: none; }
+      @media only screen and (max-width: 640px){  
+          font-size: 20px;
+          font-weight: 200; 
+          padding-bottom: 30px;
+       }
  }
  .welcome-sub-title {
      padding-bottom: 15px;
@@ -111,7 +115,7 @@
 .about-section{
   flex-direction: column;
   align-items: center;
- 
+
   .about-header {
       max-width: 80%;
       text-align: center;
@@ -119,6 +123,19 @@
       font-weight: 200;
       color: #848484;
       margin-bottom: 40px;
+       @media only screen and (max-height: 600px){
+          font-size: 20px;
+          font-weight: 100; 
+          padding-bottom: 30px;
+          margin-top: 50px; 
+       } 
+       @media only screen and (max-width: 640px){  
+          font-size: 20px;
+          font-weight: 100; 
+          padding-bottom: 30px;
+          margin-top: 50px;
+       } 
+       
   }
 
   img {
