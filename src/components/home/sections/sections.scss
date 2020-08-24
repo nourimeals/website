@@ -8,7 +8,8 @@
   flex-direction: column;
   align-items: center;
   height: 85vh;
-  @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 375px){ 
+      //iphone 6/7/8/X
     height: 40vh;
   }
   @media only screen and (min-width: 992px) {
@@ -18,7 +19,8 @@
       margin-top: 15%;
       height: 70vh;
   } 
-  @media only screen and (max-height: 640px){
+  @media only screen and (max-height: 640px){ 
+      //BlackBerry Z30
       height: 40vh; 
   }  
 
@@ -26,7 +28,8 @@
       // this is the actual width given by the google emmulator for microsoft lumia 550 
       margin-bottom: 30px;
   } 
-  @media only screen and (min-width: 412px) and (min-height: 732px){
+  @media only screen and (min-width: 412px) and (min-height: 732px){ 
+      //Nexus 6 
           font-size: 40px;
           font-weight: 200; 
           padding-bottom: 10px;
@@ -139,13 +142,15 @@
       font-weight: 200;
       color: #848484;
       margin-bottom: 40px;
-       @media only screen and (max-height: 600px){
+       @media only screen and (max-height: 600px){ 
+        //Surface Duo
           font-size: 20px;
           font-weight: 100; 
           padding-bottom: 30px;
           margin-top: 50px; 
        } 
-       @media only screen and (max-width: 640px){  
+       @media only screen and (max-width: 640px){   
+           //Microsoft Lumia 550
           font-size: 20px;
           font-weight: 100; 
           padding-bottom: 30px;
