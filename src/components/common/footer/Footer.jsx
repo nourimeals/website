@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.scss'
+import './footer.scss';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookSquare, faLinkedinIn, faTwitter, faMediumM } from "@fortawesome/free-brands-svg-icons";
@@ -12,7 +12,6 @@ const ADDRESS = <div className="missionStatement">Nouri's Address:<br/>7241 185t
 export const Footer = () => {
     return (
         <div> 
-        <footer>
             <div className="links-container">
                 <a href="https://www.facebook.com/teamnouri/" className="facebook" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon
@@ -40,7 +39,7 @@ export const Footer = () => {
                 </a>
 
             </div>
-            
+            <footer>
             {CONTENT} 
             <br/> 
             {ADDRESS}
