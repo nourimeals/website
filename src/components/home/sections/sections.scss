@@ -1,6 +1,3 @@
-/*     Extra small devices (portrait phones, less than 576px) */
-
-
 /*    WELCOME SECTION     */
 .welcome-section {
     width: 100%;
@@ -20,7 +17,7 @@
   .welcome-text-container {
       display: flex;
       flex-direction: column;
-      justify-items: flex-start;
+      align-items: center;
       width: 60%;
       margin-top: 10%;
 
@@ -28,24 +25,34 @@
           width: 35%;
           margin-top: 0px;
           margin-right: 20px;
+          align-items: flex-start;
       }
   }
  .welcome-title{
       font-size: 50px;
       font-weight: 100;
+      text-align: center;
       color: #848484;
-      padding-bottom: 20px; 
-      @media only screen and (max-width: 640px){  
-          font-size: 20px;
-          font-weight: 200; 
-          padding-bottom: 30px;
-       }
+      padding-bottom: 20px;
+
+      @media only screen and (max-width: 320px) and (max-height: 750px) {  
+          font-size: 45px;
+      }
+
+      @media only screen and (min-width: 992px) {
+        text-align: left;
+      }
  }
  .welcome-sub-title {
      padding-bottom: 15px;
      font-size: 20px;
      font-weight: 300;
+     text-align: center;
      color: #848484;
+
+     @media only screen and (min-width: 992px) {
+         text-align: left;
+     }
  }
   
  img {
@@ -123,20 +130,10 @@
       font-weight: 200;
       color: #848484;
       margin-bottom: 40px;
-       @media only screen and (max-height: 600px){ 
-        //Surface Duo
-          font-size: 20px;
-          font-weight: 100; 
-          padding-bottom: 30px;
-          margin-top: 50px; 
-       } 
-       @media only screen and (max-width: 640px){   
-           //Microsoft Lumia 550
-          font-size: 20px;
-          font-weight: 100; 
-          padding-bottom: 30px;
-          margin-top: 50px;
-       } 
+
+      @media only screen and (max-width: 320px) and (max-height: 750px) {  
+        font-size: 24px;
+      }
        
   }
 
@@ -190,6 +187,10 @@
       font-weight: 200;
       color: #848484;
       margin-bottom: 25px;
+  }
+
+  @media only screen and (max-width: 320px) and (max-height: 750px) {  
+    font-size: 28px;
   }
 
   .volunteer-container {
