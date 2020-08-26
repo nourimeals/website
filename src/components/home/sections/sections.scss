@@ -1,19 +1,31 @@
 /*    WELCOME SECTION     */
 .welcome-section {
-    width: 100%;
-    padding-top: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
   
-    @media only screen and (min-width: 992px) {
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 10%;
-        height: 70vh;
+  @media only screen and (max-width: 320px) and (max-height:750px) {
+      height: 100vh;
+  }
+
+  @media only screen and (min-width: 375px) and (min-height: 670px){ 
+    height: 70vh;
     }
+
+  @media only screen and (min-width: 750px){ 
+    height: 45vh; 
+  } 
+
+  @media only screen and (min-width: 992px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 10%;
+      height: 50vh;
+  }  
+ 
   .welcome-text-container {
       display: flex;
       flex-direction: column;
