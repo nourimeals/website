@@ -1,26 +1,35 @@
-/*     Extra small devices (portrait phones, less than 576px) */
-
-
 /*    WELCOME SECTION     */
 .welcome-section {
-    width: 100%;
-    padding-top: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
   
-    @media only screen and (min-width: 992px) {
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 10%;
-        height: 70vh;
+  @media only screen and (max-width: 320px) and (max-height:750px) {
+      height: 100vh;
+  }
+
+  @media only screen and (min-width: 375px) and (min-height: 670px){ 
+    height: 70vh;
     }
+
+  @media only screen and (min-width: 750px){ 
+    height: 45vh; 
+  } 
+
+  @media only screen and (min-width: 992px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 10%;
+      height: 50vh;
+  }  
+ 
   .welcome-text-container {
       display: flex;
       flex-direction: column;
-      justify-items: flex-start;
+      align-items: center;
       width: 60%;
       margin-top: 10%;
 
@@ -28,19 +37,34 @@
           width: 35%;
           margin-top: 0px;
           margin-right: 20px;
+          align-items: flex-start;
       }
   }
  .welcome-title{
       font-size: 50px;
       font-weight: 100;
+      text-align: center;
       color: #848484;
       padding-bottom: 20px;
+
+      @media only screen and (max-width: 320px) and (max-height: 750px) {  
+          font-size: 45px;
+      }
+
+      @media only screen and (min-width: 992px) {
+        text-align: left;
+      }
  }
  .welcome-sub-title {
      padding-bottom: 15px;
      font-size: 20px;
      font-weight: 300;
+     text-align: center;
      color: #848484;
+
+     @media only screen and (min-width: 992px) {
+         text-align: left;
+     }
  }
   
  img {
@@ -110,7 +134,7 @@
 .about-section{
   flex-direction: column;
   align-items: center;
- 
+
   .about-header {
       max-width: 80%;
       text-align: center;
@@ -118,6 +142,11 @@
       font-weight: 200;
       color: #848484;
       margin-bottom: 40px;
+
+      @media only screen and (max-width: 320px) and (max-height: 750px) {  
+        font-size: 24px;
+      }
+       
   }
 
   img {
@@ -170,6 +199,10 @@
       font-weight: 200;
       color: #848484;
       margin-bottom: 25px;
+  }
+
+  @media only screen and (max-width: 320px) and (max-height: 750px) {  
+    font-size: 28px;
   }
 
   .volunteer-container {
