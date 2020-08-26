@@ -4,12 +4,15 @@ $header-btn-color: #412F8A;
 /* smallest devices -- screen sizes up to 576px */
 header {
   width: 100%;
+  position: fixed;
+  background-color: white;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   padding-bottom: 8px;
 
    /* extra large devices -- large desktops screen sizes 1200px and above */
   @media only screen and (min-width: 768px) {
     display: flex;
+    position: static;
     justify-content: center;
   }
 
