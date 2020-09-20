@@ -1,0 +1,78 @@
+$dark-purple: #412F8A;
+
+#volunteer {
+  @media only screen and (min-width: 1024px) {
+    flex-direction: row;
+
+    @media only screen and (min-width: 1366px) {
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  .volunteer-content {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+
+    @media only screen and (min-width: 1024px) {
+      width: 50%;
+      margin: 0 5% 0 5%;
+
+      h1 {
+        margin: 0;
+      }
+    }
+
+    a {
+      width: 100%;
+
+      @media only screen and (min-width: 1024px) {
+        width: 250px;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px 30px 12px 30px;
+        background-color: white;
+        color: $dark-purple;
+        border-radius: 3px;
+        border: 1px solid $dark-purple;
+        text-transform: uppercase;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+  }
+
+  .image-col {
+    display: none;
+    flex-wrap: wrap;
+
+    @media only screen and (min-width: 1024px) {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+
+      .overlay {
+        position: relative;
+        img {
+          width: 200px;
+          height: 200px;
+        }
+
+        .text-div {
+          position: absolute;
+          bottom: 30px;
+          width: 190px;
+          color: white;
+          background-color: rgba(0, 0, 0, 0.75);
+          padding: 5px;
+
+           p {
+             margin: 0;
+           }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './about.scss';
 import groceries from '../../../images/aboutImg.png';
 
 const HEADER_TEXT = "A different model without the need for storage or many volunteers. Where the priority is fresh, nutritious food without sacrificing safety."
@@ -11,16 +11,19 @@ const CONTENT3 = `We started doing small beta test runs in Redmond, WA at the en
 
 export const About = () => {
     return (
-        <section className="about-section" id="about">
-            <div className="about-header">{HEADER_TEXT}</div>
+        <section id="about">
+            <h2>{HEADER_TEXT}</h2>
             <div className="about-content-container">
-                <img src={groceries} />
+                <img id="about-groceries" src={groceries} />
                 <div className="about-content-col">
                     <p>{CONTENT1}</p>
                     <p>{CONTENT2}</p>
                     <p>{CONTENT3}</p>
                 </div>
             </div>
+            <a>
+                <button>Help Us Feed More Families</button>
+            </a>
         </section>
     )
 }

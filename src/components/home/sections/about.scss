@@ -1,0 +1,68 @@
+$dark-purple: #412F8A;
+
+#about {
+  @media only screen and (min-width: 1366px) {
+    width: 80%;
+    margin: auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 8% 5% 0 5%;
+
+    @media only screen and (min-width: 1366px) {
+      width: 50%;
+      align-self: center;
+    }
+  }
+
+  .about-content-container {
+    margin: 5%;
+
+    @media only screen and (min-width: 1024px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .about-content-col {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+
+        p {
+          margin: 3% 5% 3% 5%;
+        }
+      }
+    }
+
+    #about-groceries {
+      display: none;
+
+      @media only screen and (min-width: 1024px) {
+        display: block;
+        width: 30%;
+      }
+    }
+  }
+
+  a {
+    width: 100%;
+
+    @media only screen and (min-width: 1024px){
+      width: 60%;
+      margin: 0 20% 5% 20%;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px 30px 12px 30px;
+      background-color: white;
+      color: $dark-purple;
+      border-radius: 3px;
+      border: 3px solid $dark-purple;
+      text-transform: uppercase;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}

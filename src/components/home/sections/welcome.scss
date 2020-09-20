@@ -1,0 +1,72 @@
+$dark-purple: #412F8A;
+
+#welcome {
+
+  @media only screen and (min-width: 1024px) {
+    flex-direction: row;
+  }
+
+	.welcome-text-container {
+		display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 30% 5% 5% 5%;
+
+    @media only screen and (min-width: 375px) {
+      @media only screen and (orientation: landscape) {
+        margin: 15% 5% 5% 5%;
+      }
+
+      @media only screen and (min-width: 768px) {
+        margin: 10% 5% 5% 5%;
+
+        @media only screen and (min-width: 1024px) {
+          width: 30%;
+          margin: 5% 5% 5% 5%;
+        }
+      }
+    }
+
+    h2 {
+      margin-top: 5px;
+      font-weight: 200;
+    }
+
+    a {
+      width: 100%;
+
+      button {
+        width: 100%;
+        padding: 12px 30px 12px 30px;
+        background-color: $dark-purple;
+        color: #fff;
+        border-radius: 3px;
+        border: none;
+        text-transform: uppercase;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+
+	}
+
+	#family {
+    display: none;
+    
+    @media only screen and (min-width: 1024px) {
+      display: block;
+      width: 50%;
+    }
+  }
+  
+  #grocery {
+    width: 100%;
+    height: 100%;
+
+    @media only screen and (min-width: 1024px) {
+      display: none
+    }
+  }
+
+}
+	
