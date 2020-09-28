@@ -55,6 +55,5 @@
   "bugs": {
     "url": "https://github.com/nourimeals/website/issues"
   },
-  "homepage": "https://nourimeals.com",
-  "heroku-run-build-script": true
+  "homepage": "https://nourimeals.com"
 }
