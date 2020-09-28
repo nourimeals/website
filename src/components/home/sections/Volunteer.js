@@ -1,4 +1,5 @@
 import React from 'react'
+import './volunteer.scss';
 
 /*  IMAGES   */
 import johnson from '../../../images/johnson.jpg';
@@ -13,52 +14,48 @@ const SECTION_TITLE = `An invitation from our board members`;
 
 export const Volunteer = () => {
     return (
-        <section className="volunteer-section" id="volunteer">
+        <section id="volunteer">
 
-            <div className="volunteer-title">{SECTION_TITLE}</div>
+            <div className="volunteer-content">
 
-            <div className="volunteer-container">
-                <div className="volunteer-content">
-                    <p>{CONTENT1}</p>
-                    <p>{CONTENT2}</p>
-                    <p>{CONTENT3}</p>
+                <h1 className="volunteer-title">{SECTION_TITLE}</h1>
+                <p>{CONTENT1}</p>
+                <p>{CONTENT2}</p>
+                <p>{CONTENT3}</p>
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9N1_wWETbeMs7UAxzUTCMl0FhCnVneozlA-EMAMQXSBFy3A/viewform" target="_blank">
-                        <button className="btn-container">volunteer with us</button>
-                    </a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9N1_wWETbeMs7UAxzUTCMl0FhCnVneozlA-EMAMQXSBFy3A/viewform" target="_blank">
+                    <button className="btn-container">volunteer with us</button>
+                </a>
+            </div>
+
+            <div className="image-col">
+                <div className="overlay">
+                    <img src={kim} alt="board-img" />
+                    <div className='text-div'>
+                        <p>Amber Kim</p>
+                        <p>Chair</p>
+                    </div>
                 </div>
 
-                <div className="image-col">
-                    <div className="image-row">
-                        <div className="overlay">
-                            <img src={kim} alt="board-img" />
-                            <div className='text-div'>
-                                <p>Amber Kim</p>
-                                <p>Chair</p>
-                            </div>
-
-                        </div>
+                <div className="overlay">
+                    <img src={green} alt="board-img" />
+                    <div className='text-div'>
+                        <p>Cody Green</p>
+                        <p>Vice Chair</p>
                     </div>
-                    <div className="overlay">
-                        <img src={green} alt="board-img" />
-                        <div className='text-div'>
-                            <p>Cody Green</p>
-                            <p>Vice Chair</p>
-                        </div>
+                </div>
+                <div className="overlay">
+                    <img src={johnson} alt="board-img" />
+                    <div className='text-div'>
+                        <p>Ryan Johnson</p>
+                        <p>Member of the Board</p>
                     </div>
-                    <div className="overlay">
-                        <img src={johnson} alt="board-img" />
-                        <div className='text-div'>
-                            <p>Ryan Johnson</p>
-                            <p>Member of the Board</p>
-                        </div>
-                    </div>
-                    <div className="overlay">
-                        <img src={timKim} alt="board-img" />
-                        <div className='text-div'>
-                            <p>Timothy Kim</p>
-                            <p>Chief of Operations</p>
-                        </div>
+                </div>
+                <div className="overlay">
+                    <img src={timKim} alt="board-img" />
+                    <div className='text-div'>
+                        <p>Timothy Kim</p>
+                        <p>Chief of Operations</p>
                     </div>
                 </div>
             </div>
