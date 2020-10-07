@@ -18,14 +18,15 @@ export const Header = () => {
     } else {
       toggleNav("mobile");
     }
-  }  
-  /* fn handleSubmitEmail is not used, could be used later
-  /* const handleSubmitEmail = (e)=>{
+  }   
+
+  //fn handleSubmitEmail is not used, could be used later
+  const handleSubmitEmail = (e)=>{
      //this fn is never run and can be used in the future 
      submitEmail(e.target.name.value, e.target.email.value) 
      console(e, name, email )
 
-   } */
+   } 
   const handlePopUp =(e)=>{ 
     //toggle effect for the popUp component to get emails from nouri 
     e.preventDefault();  
