@@ -163,7 +163,26 @@ header {
     }
 
     
-  }
+  } 
+
+  
+}  
+
+.popupdisplayHIDE{
+  display: none
+} 
+
+.popupdisplaySHOW{
+  display: flex; 
+  align-content: center;
+  align-self: center;
+  background-color: rgba(128, 128, 128, 0.39)
 }
+.close{
+    cursor: pointer;
+}
+
+
+
 
 
