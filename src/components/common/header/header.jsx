@@ -11,7 +11,7 @@ export const Header = () => {
   
   const [navClass, toggleNav] = useState("hide");
   const [POPUPDISPLAY, popUp] = useState('popupdisplayHIDE'); 
-  const [submitEmail, name, email] = useState('name', 'email');  
+  //const [submitEmail, name, email] = useState('name', 'email');  
   const toggleResponsiveNav = () => {
     if (navClass === "mobile") {
       toggleNav("hide");
@@ -21,12 +21,12 @@ export const Header = () => {
   }   
 
   //fn handleSubmitEmail is not used, could be used later
-  const handleSubmitEmail = (e)=>{
-     //this fn is never run and can be used in the future 
-     submitEmail(e.target.name.value, e.target.email.value) 
-     console(e, name, email )
+  // const handleSubmitEmail = (e)=>{
+  //    //this fn is never run and can be used in the future 
+  //    submitEmail(e.target.name.value, e.target.email.value) 
+  //    console(e, name, email )
 
-   } 
+  //  } 
   const handlePopUp =(e)=>{ 
     //toggle effect for the popUp component to get emails from nouri 
     e.preventDefault();  
@@ -49,7 +49,7 @@ export const Header = () => {
           <li><a href="https://github.com/nourimeals/documents/tree/master/Webinars" target="_blank">Resources</a></li>
           <button onClick={(e)=> handlePopUp(e)} className="btn-container">Connect With Email</button>
           { /* passing the variable POPUPDISPLAY and the setState function popUP via props */}
-          <PopUp popupdisplay={POPUPDISPLAY} popupFn={popUp} submitEmail={handleSubmitEmail}/>
+          <PopUp popupdisplay={POPUPDISPLAY} popupFn={popUp} /*submitEmail={handleSubmitEmail}*/ />
           <a href="https://donorbox.org/nouri" target="_blank"><button className="btn-container">donate</button></a>
         </ul>
 
