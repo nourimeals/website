@@ -20,13 +20,6 @@ export const Header = () => {
     }
   }   
 
-  //fn handleSubmitEmail is not used, could be used later
-  // const handleSubmitEmail = (e)=>{
-  //    //this fn is never run and can be used in the future 
-  //    submitEmail(e.target.name.value, e.target.email.value) 
-  //    console(e, name, email )
-
-  //  } 
   const handlePopUp =(e)=>{ 
     //toggle effect for the popUp component to get emails from nouri 
     e.preventDefault();  
@@ -47,17 +40,20 @@ export const Header = () => {
           <li><a href="#volunteer">Volunteer</a></li>
           <li><a href="https://forms.gle/pK6fb7YfQMWqNnRC7" target="_blank">Need Help?</a></li>
           <li><a href="https://github.com/nourimeals/documents/tree/master/Webinars" target="_blank">Resources</a></li>
-          <button onClick={(e)=> handlePopUp(e)} className="btn-container">Connect With Email</button>
+          <li>
+            <button onClick={(e)=> handlePopUp(e)} className="btn-container">Connect With Email</button>
+          </li>
           { /* passing the variable POPUPDISPLAY and the setState function popUP via props */}
-          <PopUp popupdisplay={POPUPDISPLAY} popupFn={popUp} /*submitEmail={handleSubmitEmail}*/ />
-          <a href="https://donorbox.org/nouri" target="_blank"><button className="btn-container">donate</button></a>
+          <li>
+            <a href="https://donorbox.org/nouri" target="_blank"><button className="btn-container">donate</button></a>
+          </li>
         </ul>
 
         <FontAwesomeIcon icon={navClass === "hide" ? faBars : faTimes} size="2x" className="hamburger-icon" onClick={(toggleResponsiveNav)} />
 
-
-
       </div>
+
+      <PopUp popupdisplay={POPUPDISPLAY} popupFn={popUp} />
     </header>
   );
 }
