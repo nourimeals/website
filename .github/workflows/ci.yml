@@ -23,3 +23,6 @@ jobs:
 
     - name: Install Dependencies
       run: npm i
+
+    - name: Run linter
+      run: npm run lint
