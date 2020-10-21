@@ -28,7 +28,7 @@
     }
   },
   "lint-staged":{
-    "*.{js,jsx}": "npx standard --fix"
+    "*.{js,jsx}": "standard --fix"
   },
   "keywords": [],
   "author": "",
