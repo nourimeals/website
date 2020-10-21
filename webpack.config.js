@@ -1,4 +1,4 @@
-const HtmlPlugin = require('html-webpack-plugin');
+const HtmlPlugin = require('html-webpack-plugin')
 
 const config = {
   mode: 'development',
@@ -10,14 +10,14 @@ const config = {
     filename: 'bundle.js'
   },
   plugins: [
-    new HtmlPlugin({ template: __dirname + '/src/index.html' })
+    new HtmlPlugin({ template: __dirname + '/src/index.html' }) // eslint-disable-line
   ],
   module: {
     rules: [
       {
-        test: /\.jsx?$/, 
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader', 
+        loader: 'babel-loader',
         options: {
           presets: ['@babel/preset-env']
         }
@@ -34,13 +34,13 @@ const config = {
             name: '[name].[ext]',
             outputPath: 'images/'
           }
-        }],
+        }]
       }
     ]
   },
   node: {
-    fs: "empty"
+    fs: 'empty'
   }
 }
 
-module.exports = config;
+module.exports = config
