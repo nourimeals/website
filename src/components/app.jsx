@@ -1,12 +1,12 @@
-require('dotenv').config();
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './home/home.jsx'
 
-import Home from './home/home.jsx';
+require('dotenv').config()
 
 class App extends React.Component {
-  render() {
+  render () {
     return (
       <BrowserRouter>
         <Switch>
@@ -17,4 +17,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default App
