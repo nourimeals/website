@@ -20,7 +20,7 @@ export const Volunteer = () => {
 
         <h1 className='volunteer-title'>{SECTION_TITLE}</h1>
         <p>{CONTENT1}</p>
-        <a href='https://docs.google.com/forms/d/e/1FAIpQLScEOOuZ1iZw9IWbsiWc1AX3OHhFQ4wpxYs_TZHyykx2glsrFw/viewform' target='_blank'><button className='btn-container'>Sign Up</button></a>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLScEOOuZ1iZw9IWbsiWc1AX3OHhFQ4wpxYs_TZHyykx2glsrFw/viewform' target='_blank' rel='noopener noreferrer'><button className='btn-container'>Sign Up</button></a>
         <p>{CONTENT2}</p>
         <p>{CONTENT3}</p>
 
