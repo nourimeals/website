@@ -11,7 +11,7 @@
     "hot": "webpack-dev-server --inline --hot --history-api-fallback --open",
     "build": "webpack --mode production",
     "start": "node index.js",
-    "lint:fix": "npx standard --fix",
+    "lint:fix": "standard --fix",
     "lint": "standard"
   },
   "standard": {
@@ -28,7 +28,10 @@
     }
   },
   "lint-staged":{
-    "*.{js,jsx}": "standard --fix"
+    "*.{js,jsx}": [
+      "standard --fix",
+      "git add"
+    ]
   },
   "keywords": [],
   "author": "",
