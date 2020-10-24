@@ -1,7 +1,3 @@
----
-name: Pull Request
----
-
 ## What is the story, issue or feature this Pull Request is solving or implementing?
 
 
