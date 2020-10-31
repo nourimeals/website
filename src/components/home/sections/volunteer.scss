@@ -3,9 +3,10 @@ $dark-purple: #412F8A;
 #volunteer {
   @media only screen and (min-width: 1024px) {
     flex-direction: row;
-
+    float: left; 
+    padding: 1em;
     @media only screen and (min-width: 1366px) {
-      width: 80%;
+      width: 40%;
       margin: auto;
     }
   }
