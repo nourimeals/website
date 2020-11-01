@@ -1,6 +1,7 @@
 $dark-purple: #412F8A;
 
-#volunteer {
+#volunteer { 
+  width: 100%;
   @media only screen and (min-width: 1024px) {
     flex-direction: row;
     float: left; 
@@ -14,7 +15,8 @@ $dark-purple: #412F8A;
   .volunteer-content {
     display: flex;
     flex-direction: column;
-    margin: 5%;
+    margin: 5%; 
+    padding-left: 5em;
 
     @media only screen and (min-width: 1024px) {
       width: 50%;
