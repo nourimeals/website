@@ -51,7 +51,7 @@ export const BoardMembers = () => {
             <div>
               <img src={roger} alt='board-img' />
               <div className='text-div'>
-                <p>Roger Keih</p>
+                <p>Roger Keith</p>
                 <p>Lead Software Engineer</p>
               </div>
             </div>

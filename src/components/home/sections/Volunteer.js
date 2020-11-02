@@ -29,39 +29,6 @@ export const Volunteer = () => {
             <button className='btn-container'>volunteer with us</button>
           </a>
         </div>
-
-        {/* <div className='image-col'>
-        <div className='overlay'>
-          <img src={kim} alt='board-img' />
-          <div className='text-div'>
-            <p>Amber Kim</p>
-            <p>Chair</p>
-          </div>
-        </div>
-
-        <div className='overlay'>
-          <img src={green} alt='board-img' />
-          <div className='text-div'>
-            <p>Cody Green</p>
-            <p>Vice Chair</p>
-          </div>
-        </div>
-        <div className='overlay'>
-          <img src={johnson} alt='board-img' />
-          <div className='text-div'>
-            <p>Ryan Johnson</p>
-            <p>Member of the Board</p>
-          </div>
-        </div>
-        <div className='overlay'>
-          <img src={timKim} alt='board-img' />
-          <div className='text-div'>
-            <p>Timothy Kim</p>
-            <p>Chief of Operations</p>
-          </div>
-        </div>
-      </div> */}
-
       </section>
       <div><BoardMembers /></div>
     </>
