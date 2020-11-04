@@ -31,6 +31,7 @@ export const Volunteer = () => {
         </div>
       </section>
       <div><BoardMembers /></div>
+
     </>
   )
 }

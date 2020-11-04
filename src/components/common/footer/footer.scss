@@ -1,4 +1,8 @@
-.links-container {
+.links-container { 
+  @media only screen and (max-width: 1024px){
+        flex-wrap: wrap; 
+        order: 1;   
+      } 
   display: flex;
   justify-content: center;
   margin-top: 5%;
