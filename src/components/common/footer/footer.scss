@@ -1,7 +1,7 @@
 .links-container { 
-  @media only screen and (max-width: 1024px){
-        flex-wrap: wrap; 
-        order: 1;   
+  @media only screen and (min-width: 1024px){
+        display: inline-flex; 
+        padding-left: 25vh;
       } 
   display: flex;
   justify-content: center;

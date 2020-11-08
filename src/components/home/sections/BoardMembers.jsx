@@ -1,6 +1,7 @@
 import React from 'react'
 import './volunteer.scss'
 import './boardmembers.scss'
+/*  IMAGES   */
 import johnson from '../../../images/johnson.jpg'
 import kim from '../../../images/kim.jpg'
 import timKim from '../../../images/tim-kim.jpg'

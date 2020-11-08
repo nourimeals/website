@@ -1,11 +1,6 @@
 import React from 'react'
 import './volunteer.scss'
 import { BoardMembers } from './BoardMembers.jsx'
-/*  IMAGES   */
-// import johnson from '../../../images/johnson.jpg'
-// import kim from '../../../images/kim.jpg'
-// import timKim from '../../../images/tim-kim.jpg'
-// import green from '../../../images/green.jpg'
 
 const CONTENT1 = 'If you are another nonprofit or social worker in the Redmond, Kirkland, Woodinville, Bothell, or Bellevue who would like to refer families with school-aged, disabled, or unborn children, we would love to help. Currently, we are only able to deliver within Redmond, Kirkland, Woodinville, Bothell, and Bellevue. Hopefully, we\'ll be able to expand soon.'
 const CONTENT2 = 'If you are looking for ways to volunteer remotely from your home, we would love to chat with you. Some of the things we could use help in include marketing, organizing, and developing apps to help us automate some processes with our deliveries (stack: JavaScript, Node, React, AWS, DynamoDB).'
@@ -14,7 +9,7 @@ const SECTION_TITLE = 'An invitation from our board members'
 
 export const Volunteer = () => {
   return (
-    <>
+    <div>
       <section id='volunteer'>
 
         <div className='volunteer-content'>
@@ -30,8 +25,8 @@ export const Volunteer = () => {
           </a>
         </div>
       </section>
-      <div><BoardMembers /></div>
+      <BoardMembers />
 
-    </>
+    </div>
   )
 }
