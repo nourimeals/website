@@ -9,7 +9,7 @@ const SECTION_TITLE = 'An invitation from our board members'
 
 export const Volunteer = () => {
   return (
-    <div>
+    <span>
       <section id='volunteer'>
 
         <div className='volunteer-content'>
@@ -27,6 +27,6 @@ export const Volunteer = () => {
       </section>
       <BoardMembers />
 
-    </div>
+    </span>
   )
 }

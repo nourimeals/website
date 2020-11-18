@@ -55,6 +55,7 @@ export const BoardMembers = () => {
                 <p>Roger Keith</p>
                 <p>Lead Software Engineer</p>
               </div>
+
             </div>
           </div>
         </div>
