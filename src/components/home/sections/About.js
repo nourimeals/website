@@ -13,7 +13,9 @@ export const About = () => {
     <section id='about'>
       <h2>{HEADER_TEXT}</h2>
       <div className='about-content-container'>
-        <img id='about-groceries' src={groceries} />
+        <div className='about-groceries-container'>
+          <img id='about-groceries' src={groceries} />
+        </div>
         <div className='about-content-col'>
           <p>{CONTENT1}</p>
           <p>{CONTENT2}</p>
