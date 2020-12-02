@@ -14,7 +14,9 @@ export const Welcome = () => {
         <h2 className='welcome-sub-title'>{SUB_HEADER_TXT}</h2>
         <a href='https://donorbox.org/nouri' target='_blank' rel='noopener noreferrer'><button>donate now</button></a>
       </div>
-      <img id='family' src={landingImage} alt='family-image' />
+      <div className='family-container'>
+        <img id='family' src={landingImage} alt='family-image' />
+      </div>
       <img id='grocery' src={groceries} />
     </section>
   )
