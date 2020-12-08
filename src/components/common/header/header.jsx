@@ -18,6 +18,11 @@ export const Header = () => {
       toggleNav('mobile')
     }
   }
+  const mobileMenuClose = (e) => {
+    if (e.target.tagName === 'A' && navClass === 'mobile') {
+      toggleNav('hide')
+    }
+  }
   const handlePopUp = (e) => {
     // toggle effect for the popUp component to get emails from nouri
     e.preventDefault()
@@ -29,7 +34,7 @@ export const Header = () => {
       <header>
         <div className='header-parent'>
           <a href='#welcome'><img src={logo} alt='Nouri Logo' id='logo' /></a>
-          <ul className={navClass}>
+          <ul className={navClass} onClick={(e) => mobileMenuClose(e)}>
             <li><a href='#about'>About us</a></li>
             <li><a href='#volunteer'>Volunteer</a></li>
             <li><a href='https://forms.gle/pK6fb7YfQMWqNnRC7' target='_blank' rel='noopener noreferrer'>Need Help?</a></li>

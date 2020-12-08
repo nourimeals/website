@@ -4,7 +4,7 @@ export const PopUp = ({ popupdisplay, popupFn }) => {
   return (
     <div className={popupdisplay}>
       <a
-        class='close' href='#'
+        className='close' href='#'
         onClick={(e) => popupFn('hide')}
       ><b>&times;</b>
       </a>
