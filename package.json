@@ -9,6 +9,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "hot": "webpack-dev-server --inline --hot --history-api-fallback --open",
+    "hot:docker": "webpack-dev-server --host 0.0.0.0 --inline --hot --history-api-fallback --open",
     "build": "webpack --mode production",
     "start": "node index.js",
     "lint:fix": "standard --fix",

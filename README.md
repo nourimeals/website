@@ -5,6 +5,7 @@ This repo holds the project for our website.
 ## Table of Contents <!-- omit in toc --> 
 - [Technologoes](#technologoes)
 - [Quick Start](#quick-start)
+- [Docker Start](#docker-start)
 - [How to work with this repository](#how-to-work-with-this-repository)
 
 ## Technologoes
@@ -26,6 +27,12 @@ git clone https://github.com/nourimeals/website.git
 cd website
 ```
 
+3. Install libraries
+
+```bash
+npm install
+```
+
 3. Run the project
 
 ```bash
@@ -35,6 +42,20 @@ npm run hot
 This should open up the website in your browser in ``http://localhost:8080``
 
 The hot script will hot reload whenever you make changes in your files so that you can see your changes right away.
+
+## Docker Start
+
+Requirements for Windows OS
+- Windows 10 Pro
+- Docker
+- Hyper-V enabled
+
+1. Windows OS: Launch docker-compose
+```powershell
+launch_docker.ps1
+```
+
+2. Open ``http://localhost:8080``
 
 ## How to work with this repository
 
