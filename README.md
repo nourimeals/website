@@ -40,6 +40,6 @@ The hot script will hot reload whenever you make changes in your files so that y
 
 -  Working with Git: [Git Standard Operating Procedures](https://github.com/nourimeals/documents/blob/master/SOPs/Git_Standard_Operating_Procedures.md)
 
-- [Front End Best Practices](./_docs/front_end_best_practices.md)
+- Before adding contributions please refer to [Front End Best Practices](https://github.com/nourimeals/documents/blob/master/Development/Front%20End%20Development/front_end_best_practices.md)
 
 - Documentation Table of Contents. We use the VS Code [Markdown All in One] (https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension.
