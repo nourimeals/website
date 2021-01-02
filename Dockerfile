@@ -8,8 +8,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install app dependencies
 COPY package*.json ./
-RUN npm install --silent &&\
-    npm install react-scripts@4.0.1 -g --silent
+RUN npm install --silent
 
 # add app
 COPY . .
