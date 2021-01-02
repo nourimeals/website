@@ -34,12 +34,18 @@ $dark-purple: #412F8A;
       button {
         width: 100%;
         padding: 12px 30px 12px 30px;
-        background-color: white;
+        background-color: #fff;
         color: $dark-purple;
         border-radius: 3px;
         border: 1px solid $dark-purple;
         text-transform: uppercase;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      button:hover, button:focus {
+        background-color: $dark-purple;
+        color: #fff;
+        cursor: pointer;
       }
     }
   }

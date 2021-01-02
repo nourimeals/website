@@ -46,6 +46,13 @@ $dark-purple: #412F8A;
         text-transform: uppercase;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
+
+      button:hover, button:focus {
+        background-color: #fff;
+        border: 1px solid $dark-purple;
+        color: $dark-purple;
+        cursor: pointer;
+      }
     }
 
   }
