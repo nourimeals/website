@@ -134,8 +134,3 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/osx,node,windows
-
-# Ignore root level dockerfiles
-/Dockerfile
-/docker-compose.yml
-/.dockerignore

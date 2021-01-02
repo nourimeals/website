@@ -5,7 +5,7 @@ This repo holds the project for our website.
 ## Table of Contents <!-- omit in toc --> 
 - [Technologoes](#technologoes)
 - [Quick Start](#quick-start)
-- [Docker Start](#docker-start)
+- [Running with Docker](#running-with-docker)
 - [How to work with this repository](#how-to-work-with-this-repository)
 
 ## Technologoes
@@ -43,19 +43,25 @@ This should open up the website in your browser in ``http://localhost:8080``
 
 The hot script will hot reload whenever you make changes in your files so that you can see your changes right away.
 
-## Docker Start
+## Running with Docker
 
-Requirements for Windows OS
-- Windows 10 Pro
-- Docker
-- Hyper-V enabled
+1. Install Docker
+- Open https://docs.docker.com/get-docker/
+- Select the OS where you will be installing Docker
+- Read the requirements and instructions
 
-1. Windows OS: Launch docker-compose
-```powershell
-launch_docker.ps1
+2. Copy all items in `./docker` to project root directory
+- If you're on Windows, you can use `launch_docker.ps1` and skip to step 4.
+3. Create the docker image and container
+```bash
+docker-compose -f docker-compose.yml up -d --build
 ```
-
-2. Open ``http://localhost:8080``
+Command Highlights:
+- `-f`: points to file
+-  `up`: Create and start containers
+- `d`: Runs container in background and leaves it running
+- `--build`: Creates the Docker image before starting the container
+4. Open ``http://localhost:8080``
 
 ## How to work with this repository
 

@@ -7,7 +7,7 @@ WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 
 # install app dependencies
-COPY package*.json .
+COPY package*.json ./
 RUN npm install --silent &&\
     npm install react-scripts@3.4.1 -g --silent
 
@@ -15,4 +15,4 @@ RUN npm install --silent &&\
 COPY . .
 
 # start app
-CMD ["npm", "run", "hot:docker"]
+CMD ["npm", "run", "start:docker"]
