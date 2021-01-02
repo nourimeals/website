@@ -5,6 +5,7 @@ This repo holds the project for our website.
 ## Table of Contents <!-- omit in toc --> 
 - [Technologoes](#technologoes)
 - [Quick Start](#quick-start)
+- [Running with Docker](#running-with-docker)
 - [How to work with this repository](#how-to-work-with-this-repository)
 
 ## Technologoes
@@ -26,6 +27,12 @@ git clone https://github.com/nourimeals/website.git
 cd website
 ```
 
+3. Install libraries
+
+```bash
+npm install
+```
+
 3. Run the project
 
 ```bash
@@ -35,6 +42,32 @@ npm run hot
 This should open up the website in your browser in ``http://localhost:8080``
 
 The hot script will hot reload whenever you make changes in your files so that you can see your changes right away.
+
+## Running with Docker
+
+Running with Docker is an alternative process to run the application.
+
+If you're interested in some of it's advantages and disadvantages, Philipp Hauer's blog has an understandable overview here 
+https://phauer.com/2015/discussing-docker-pros-and-cons/
+
+1. Install Docker
+- Open https://docs.docker.com/get-docker/
+- Select the OS where you will be installing Docker
+- Read the requirements and instructions
+2. Create the docker image and container
+```bash
+docker-compose -f docker-compose.yml up -d --build
+```
+Command Highlights:
+- `-f`: points to file
+-  `up`: Create and start containers
+- `d`: Runs container in background and leaves it running
+- `--build`: Creates the Docker image before starting the container
+3. Open ``http://localhost:8080``
+4. Occassionally, you should clean up any stopped containers, dangling images, and unused networks
+```bash
+docker system prune
+```
 
 ## How to work with this repository
 

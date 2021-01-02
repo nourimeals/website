@@ -11,6 +11,7 @@
     "hot": "webpack-dev-server --inline --hot --history-api-fallback --open",
     "build": "webpack --mode production",
     "start": "node index.js",
+    "start:docker": "webpack-dev-server --host 0.0.0.0 --inline --hot --history-api-fallback --open",
     "lint:fix": "standard --fix",
     "lint": "standard"
   },
