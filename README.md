@@ -51,7 +51,6 @@ The hot script will hot reload whenever you make changes in your files so that y
 - Read the requirements and instructions
 
 2. Copy all items in `./docker` to project root directory
-- If you're on Windows, you can use `launch_docker.ps1` and skip to step 4.
 3. Create the docker image and container
 ```bash
 docker-compose -f docker-compose.yml up -d --build
