@@ -64,7 +64,7 @@ Command Highlights:
 - `d`: Runs container in background and leaves it running
 - `--build`: Creates the Docker image before starting the container
 3. Open ``http://localhost:8080``
-4. Occassionally, you shoud clean up any stopped containers, dangling images, and unused networks
+4. Occassionally, you should clean up any stopped containers, dangling images, and unused networks
 ```bash
 docker system prune
 ```
