@@ -45,12 +45,15 @@ The hot script will hot reload whenever you make changes in your files so that y
 
 ## Running with Docker
 
+Running with Docker is an alternative process to run the application.
+
+If you're interested in some of it's advantages and disadvantages, Philipp Hauer's blog has an understandable overview here 
+https://phauer.com/2015/discussing-docker-pros-and-cons/
+
 1. Install Docker
 - Open https://docs.docker.com/get-docker/
 - Select the OS where you will be installing Docker
 - Read the requirements and instructions
-
-2. Copy all items in `./docker` to project root directory
 3. Create the docker image and container
 ```bash
 docker-compose -f docker-compose.yml up -d --build
@@ -61,6 +64,10 @@ Command Highlights:
 - `d`: Runs container in background and leaves it running
 - `--build`: Creates the Docker image before starting the container
 4. Open ``http://localhost:8080``
+5. Cleaning up any stopped containers, dangling images, and unused networks
+```bash
+docker system prune
+```
 
 ## How to work with this repository
 
