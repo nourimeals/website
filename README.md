@@ -54,7 +54,7 @@ https://phauer.com/2015/discussing-docker-pros-and-cons/
 - Open https://docs.docker.com/get-docker/
 - Select the OS where you will be installing Docker
 - Read the requirements and instructions
-3. Create the docker image and container
+2. Create the docker image and container
 ```bash
 docker-compose -f docker-compose.yml up -d --build
 ```
@@ -63,8 +63,8 @@ Command Highlights:
 -  `up`: Create and start containers
 - `d`: Runs container in background and leaves it running
 - `--build`: Creates the Docker image before starting the container
-4. Open ``http://localhost:8080``
-5. Cleaning up any stopped containers, dangling images, and unused networks
+3. Open ``http://localhost:8080``
+4. Occassionally, you shoud clean up any stopped containers, dangling images, and unused networks
 ```bash
 docker system prune
 ```
