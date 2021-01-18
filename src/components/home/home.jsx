@@ -4,6 +4,7 @@ import { Header } from '../common/header/header.jsx'
 import { Welcome } from './sections/Welcome'
 import { About } from './sections/About'
 import { Volunteer } from './sections/Volunteer'
+import BoardMembers from './sections/board-members.jsx'
 import { Footer } from '../common/footer/Footer.jsx'
 
 import './home.scss'
@@ -41,6 +42,7 @@ class HomePage extends React.Component {
         <Welcome />
         <About />
         <Volunteer />
+        <BoardMembers />
         <Footer />
       </>
     )
