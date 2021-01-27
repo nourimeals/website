@@ -45,15 +45,16 @@
         } 
         
         .text-div {
-          position: relative;
+          position: relative; 
+          height: 50%;
           bottom: 30px;
           width: 50%;
           color: white;
           background-color: rgba(0, 0, 0, 0.75);
           padding-left: 5em; 
             @media only screen and (min-width: 768px) and (max-width: 1024px){
-        width: 45%;
-        padding-left: 5.5em;
+          width: 45%;
+          padding-left: 5.5em;
 
     }
 
