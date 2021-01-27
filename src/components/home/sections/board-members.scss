@@ -19,7 +19,15 @@
         padding-left: 3.5em; 
         
 
-    }
+    } 
+        .overlay{
+            position: relative; 
+            width: 70%; 
+            height: 25%; 
+            bottom: 10px; 
+            box-shadow: 2px 4px rgba(180, 180, 176, 0.603);
+            margin-bottom: 1vh;
+        }
             
         } 
 
@@ -38,8 +46,8 @@
         
         .text-div {
           position: relative;
-          bottom: 35px;
-          width: 55%;
+          bottom: 30px;
+          width: 50%;
           color: white;
           background-color: rgba(0, 0, 0, 0.75);
           padding-left: 5em; 

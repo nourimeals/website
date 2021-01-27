@@ -14,10 +14,10 @@ class MemberCard extends Component {
     this.makeBoardMembers = this.makeBoardMembers.bind(this)
   }
 
-  makeBoardMembers (arg) {
-    return arg.map(obj => {
+  makeBoardMembers (personsData) {
+    return personsData.map(obj => {
       return (
-        <div key={obj.position}>
+        <div key={obj.position} className='overlay'>
           <img src={obj.pic} alt='board-img' />
           <div className='text-div' key={obj.position}>
             <p>{obj.name}</p>
