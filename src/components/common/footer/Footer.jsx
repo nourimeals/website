@@ -10,7 +10,7 @@ const CONTENT =
     deemed tax-deductible absent any limitations on deductibility applicable to a particular
     taxpayer. No goods or services were provided in exchange for your contribution.<br />
   </div>
-const ADDRESS = <div className='missionStatement'>Nouri's Address:<br />7241 185th Ave. NE #3472 <br /> Redmond, WA</div>
+const ADDRESS = <div className='missionStatement'>Nouri's Address:<br />522 W. Riverside Ave. Suite N <br /> Spokane, WA</div>
 
 export const Footer = () => {
   return (
