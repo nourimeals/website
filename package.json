@@ -9,6 +9,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "hot": "webpack-dev-server --inline --hot --history-api-fallback --open",
+    "buildWatch": "webpack --mode production --watch", 
     "build": "webpack --mode production",
     "start": "node index.js",
     "start:docker": "webpack-dev-server --host 0.0.0.0 --inline --hot --history-api-fallback --open",
