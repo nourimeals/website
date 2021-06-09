@@ -14,7 +14,7 @@ const ADDRESS = <div className='missionStatement'>Nouri's Address:<br />522 W. R
 
 export const Footer = () => {
   return (
-    <div>
+    <span>
       <div className='links-container'>
         <a href='https://www.facebook.com/teamnouri/' className='facebook' target='_blank' rel='noopener noreferrer'>
           <FontAwesomeIcon
@@ -47,7 +47,7 @@ export const Footer = () => {
         <br />
         {ADDRESS}
       </footer>
-    </div>
+    </span>
 
   )
 }

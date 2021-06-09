@@ -1,4 +1,8 @@
-.links-container {
+.links-container { 
+  @media only screen and (min-width: 1024px) and (max-width: 1366px){
+        display: inline-flex; 
+        padding-left: 25vh;
+      } 
   display: flex;
   justify-content: center;
   margin-top: 5%;

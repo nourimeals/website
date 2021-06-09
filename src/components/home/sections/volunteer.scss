@@ -1,20 +1,27 @@
 $dark-purple: #412F8A;
 
-#volunteer {
-  @media only screen and (min-width: 1024px) {
+#volunteer { 
+  width: 100%; 
+  @media only screen and (min-width: 1024px) { 
+    width: 60%;
     flex-direction: row;
-
+    float: left; 
+    padding: 1em;
     @media only screen and (min-width: 1366px) {
-      width: 80%;
-      margin: auto;
+      width: 40%;
+      margin: auto; 
+      padding-left: 20vh;
     }
   }
 
   .volunteer-content {
     display: flex;
     flex-direction: column;
-    margin: 5%;
-
+    margin: 5%; 
+   
+    @media only screen and (min-width: 320px){
+      padding: 0;
+    }
     @media only screen and (min-width: 1024px) {
       width: 50%;
       margin: 0 5% 0 5%;
