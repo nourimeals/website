@@ -41,11 +41,11 @@ export const Header = () => {
             <li><a href='https://github.com/nourimeals/documents/tree/master/Webinars' target='_blank' rel='noopener noreferrer'>Resources</a></li>
             {/* adds div to only smaller || "mobile" devices that allows users to access MailerLite form */}
             <li><div className={navClass}><a onClick={(e) => handlePopUp(e)}>Connect With Email</a></div>
-              <button onClick={(e) => handlePopUp(e)} className='btn-container'>Connect With Email</button>
+              <button onClick={(e) => handlePopUp(e)} className='btn-container-email'>Connect With Email</button>
             </li>
             {/* passing the variable POPUPDISPLAY and the setState function popUP via props */}
             <li>
-              <a href='https://donorbox.org/nouri' target='_blank' rel='noopener noreferrer'><button className='btn-container'>donate</button></a>
+              <a href='https://donorbox.org/nouri' target='_blank' rel='noopener noreferrer'><button className='btn-container'>Donate</button></a>
             </li>
           </ul>
 
